@@ -1,0 +1,105 @@
+.catering {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.wrapper {
+  width: 100vw;
+}
+
+.text_container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 35dvw;
+  margin: 2rem auto;
+}
+
+.text_container .title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 1.25rem;
+  color: var(--blue);
+  line-height: 1.4;
+}
+
+.text_container p {
+  color: var(--blue);
+  line-height: 2.25;
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+.text_container p+p {
+  margin-top: 1rem;
+}
+
+.image {
+  width: 50dvw;
+  height: 70dvh;
+  object-fit: cover;
+}
+
+.row {
+  display: flex;
+  height: 50dvh;
+  overflow: hidden;
+  position: relative
+}
+
+.image_row {
+  object-fit: cover;
+  width: 60dvw;
+}
+
+.row .frase {
+  width: 40dvw;
+  line-height: 50dvh;
+  font-size: 5rem;
+  font-weight: 200;
+  color: var(--gold);
+  text-align: center;
+  z-index: 2;
+}
+
+@media (max-width: 760px) {
+  .catering {
+    flex-direction: column;
+  }
+
+  .text_container {
+    width: 90%;
+    margin-bottom: 3rem;
+    padding: 0;
+  }
+
+  .catering .title {
+    font-size: 1.75rem;
+    font-weight: 400;
+  }
+
+  .catering p {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  .row {
+    margin: 0.5rem 0;
+    height: 35vh;
+  }
+
+  .row .frase {
+    position: absolute;
+    bottom: 3rem;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    font-size: 3rem;
+    line-height: 3rem;
+    padding: 1rem;
+  }
+
+
+}

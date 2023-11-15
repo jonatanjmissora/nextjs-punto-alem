@@ -1,0 +1,25 @@
+.footer {
+  height: 8rem;
+  background: var(--light-gold);
+  color: var(--light-gold);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.footer a {
+  background: linear-gradient(165deg, rgb(76, 88, 147), black, rgb(76, 88, 147));
+  margin: 0.5rem;
+  border: 1px solid #555;
+  opacity: 0.5
+}
+
+@media (max-width: 760px) {
+  .footer {
+    height: 4rem;
+  }
+
+  .footer a {
+    font-size: 0.5rem;
+  }
+}
