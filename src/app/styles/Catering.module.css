@@ -1,12 +1,14 @@
 .catering {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
   margin-top: 10rem;
 }
 
 .wrapper {
   width: 100vw;
+  height: 75dvh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
 }
 
 .text_container {
@@ -14,51 +16,59 @@
   display: flex;
   flex-direction: column;
   width: 35dvw;
-  margin: 2rem auto;
 }
 
 .text_container .title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 300;
   letter-spacing: 2px;
   margin-bottom: 1.25rem;
-  color: var(--blue);
   line-height: 1.4;
+  color: var(--blue);
 }
 
 .text_container p {
   color: var(--blue);
-  line-height: 2.25;
+  line-height: 2;
   font-weight: 300;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .text_container p+p {
   margin-top: 1rem;
 }
 
+.image1 {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .image {
-  width: 50dvw;
-  height: 70dvh;
+  width: 50vw;
+  height: 50vh;
   object-fit: cover;
 }
 
 .row {
   display: flex;
+  height: 50vh;
   height: 50dvh;
+  width: 100vw;
   overflow: hidden;
-  position: relative
+  position: relative;
 }
 
 .image_row {
   object-fit: cover;
-  width: 60dvw;
+  height: 50vh;
+  width: 60vw;
 }
 
 .row .frase {
-  width: 40dvw;
+  width: 40vw;
   line-height: 50dvh;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 200;
   color: var(--gold);
   text-align: center;
@@ -77,13 +87,19 @@
   }
 
   .catering .title {
-    font-size: 1.75rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 1.25rem;
+    line-height: 1.4;
+    color: var(--blue);
   }
 
   .catering p {
+    color: var(--blue);
+    line-height: 2;
+    font-weight: 300;
     font-size: 1rem;
-    line-height: 1.75;
   }
 
   .row {

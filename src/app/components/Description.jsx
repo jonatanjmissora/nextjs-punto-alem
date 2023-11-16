@@ -26,7 +26,7 @@ export const Description = () => {
 
       </article>
       {/*<Carrousel category={'foto2'} width={'100%'} height={'55vh'} index={0}/>*/}
-      <Image className={styles.image} src={foto_1_1} height="250" alt="description foto" />
+      <Image className={styles.image} src={foto_1_1} height="320" alt="description foto" />
         
     </section>
   )

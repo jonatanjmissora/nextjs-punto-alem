@@ -1,4 +1,9 @@
+import Image from 'next/image'
 import styles from '../styles/Catering.module.css'
+import foto_7_1 from "../assets/foto_7_1.jpg";
+import foto_7_3 from "../assets/foto_7_3.jpg";
+import foto_7_4 from "../assets/foto_7_4.jpg";
+import foto_10_2 from "../assets/foto_10_2.jpg";
 import { Carrousel } from './Carrousel'
 
 export const Catering = () => {
@@ -12,24 +17,26 @@ export const Catering = () => {
             <p>Elaboramos comida al aire libre, nuestros servicios te brindaran la posibilidad de probar nuestro mejor catering también en exteriores.</p>
             <p>Además, te ofrecemos un servicio de bartender, que te preparará los mejores y mas ricos tragos. Acompañado siempre por nuestro servicio de mozos, que atenderá de la mejor manera y profesionalismo.</p>
           </div>
+        <Image className={styles.image1} src={foto_7_1} height="350" alt="catering foto1" />
         </div>
 
-        <Carrousel category={'foto7'} width={'100%'} height={'70vh'} index={0}/>
       </article>
       <article>
         <div className={styles.row}>
-        <Carrousel category={'foto8'} width={'60vw'} height={'50vh'} index={2}/>
+        {/* <Carrousel category={'foto8'} width={'60vw'} height={'50vh'} index={2}/> */}
+        <Image className={styles.image_row} src={foto_7_3} height="250" alt="catering foto2" />
           <h2 className={styles.frase}>DISTINCIÓN</h2>
         </div>
 
          <div className={styles.row}>
           <h2 className={styles.frase}>ESTILO</h2>
-          <Carrousel category={'foto9'} width={'60vw'} height={'50vh'} index={3}/>
-          {/* <img className={styles.image_row} src={heroImg} alt="" /> */}
+          {/* <Carrousel category={'foto9'} width={'60vw'} height={'50vh'} index={3}/> */}
+          <Image className={styles.image_row} src={foto_7_4} height="250" alt="catering foto3" />
         </div>
 
         <div className={styles.row}>
-          <Carrousel category={'foto10'} width={'60vw'} height={'50vh'} index={1}/>
+          {/* <Carrousel category={'foto10'} width={'60vw'} height={'50vh'} index={1}/> */}
+          <Image className={styles.image_row} src={foto_10_2} height="250" alt="catering foto4" />
           <h2 className={styles.frase}>ELABORACIÓN</h2>
         </div>
       </article>

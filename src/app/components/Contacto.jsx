@@ -1,5 +1,8 @@
+import Image from 'next/image'
 import { FacebookSvg, InstagramSvg, MailSvg, MapPinSvg, PhoneSvg } from '../assets/icons/Svg'
 import styles from '../styles/Contacto.module.css'
+import foto_5_4 from "../assets/foto_5_4.jpg"
+import foto_1_6 from "../assets/foto_1_6.jpg"
 import { Carrousel } from './Carrousel'
 
 export const Contacto = () => {
@@ -9,7 +12,8 @@ export const Contacto = () => {
       <article className={styles.contact}>
 
       {/* <img className={styles.image} src={heroImg} alt="" /> */}
-      <Carrousel category={'foto11'} width={'100%'} height={'100vh'} index={3}/>
+      {/* <Carrousel category={'foto11'} width={'100%'} height={'100vh'} index={3}/> */}
+      <Image className={styles.image1} src={foto_5_4} height="700" alt="contacto foto1"/>
       <form className={styles.form}>
         <h2 className={styles.form_title}>Tu evento comienza aquí</h2>
         <div className={styles.row}>
@@ -90,8 +94,8 @@ export const Contacto = () => {
       </div>
       </article>
 
-      <Carrousel category={'foto12'} width={'100%'} height={'60vh'} index={3}/>
-      {/* <img className={styles.image2} src={heroImg} alt="" /> */}
+      {/* <Carrousel category={'foto12'} width={'100%'} height={'60vh'} index={3}/> */}
+      <Image className={styles.image2} src={foto_1_6} height="350" alt="contacto foto2"/>
 
     </section>
   )

@@ -7,7 +7,7 @@ import Image from "next/image"
 export const Navbar = () => {
   return (
     <header className={styles.header}>
-      <span className={styles.logo}><Image src={NavLogo} alt="logo" /></span>
+      <Image className={styles.logo} src={NavLogo} alt="logo" height="163" width="150"/>
       <input type="checkbox" id="hamb" className={styles.hamb}/>
        <label htmlFor="hamb" className={styles.icons}>
         <i className={styles.menu}><MenuSvg /></i>

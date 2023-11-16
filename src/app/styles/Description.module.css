@@ -1,7 +1,7 @@
 .section {
   background: white;
   padding-top: 5rem;
-  background: linear-gradient(to bottom, rgb(250, 250, 255), white);
+  background: linear-gradient(to bottom, rgb(253, 253, 255), white);
 }
 
 .text_container {
@@ -21,7 +21,7 @@
   margin-bottom: 1.5rem;
   font-family: Poppins;
   font-weight: 400;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: var(--gold);
 }
 
@@ -29,12 +29,12 @@
   color: 111;
   line-height: 1.75;
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: var(--blue);
 }
 
 .image {
-  height: 55vh;
+  height: 65vh;
   object-fit: cover;
   width: 100%;
 }

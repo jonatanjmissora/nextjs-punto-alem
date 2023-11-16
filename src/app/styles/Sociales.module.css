@@ -1,5 +1,6 @@
 .sociales {
   position: relative;
+  height: calc(100vh - var(--navbar-desktop-height));
 }
 
 .text_container {
@@ -10,7 +11,7 @@
   transform: translateY(-50%);
   right: 3%;
   width: 40dvw;
-  padding: 2rem;
+  padding: 2rem 4rem;
 }
 
 .text_container::before {
@@ -26,7 +27,7 @@
 }
 
 .text_container .title {
-  font-size: 2.75rem;
+  font-size: 2rem;
   font-weight: 200;
   letter-spacing: 2px;
   margin-bottom: 1.25rem;
@@ -36,9 +37,9 @@
 
 .text_container p {
   color: white;
-  line-height: 2.25;
+  line-height: 2;
   font-weight: 200;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .text_container p+p {
@@ -46,7 +47,7 @@
 }
 
 .image {
-  height: 80dvh;
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }

@@ -14,7 +14,7 @@ export const Nosotros = () => {
           <p>Nos caracterizamos por la búsqueda constante de propuestas innovadoras, poniendo a disposición nuestra creatividad, responsabilidad y experiencia.</p>
         </div>
         {/*<Carrousel category={'foto3'} width={'40vw'} height={'35vw'} index={1}/>*/}
-        <Image className={styles.image} height="250" src={foto_1_4} alt="nosotors foto" />
+        <Image className={styles.image} height="375" src={foto_1_4} alt="nosotors foto" />
       </div>
     </section>
   )

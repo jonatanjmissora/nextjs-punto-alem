@@ -7,10 +7,9 @@ import { Carrousel } from './Carrousel'
 export const Hero = () => {
   return (
     <section className={styles.hero} id="inicio">
-      {/*<Carrousel category={'foto1'} width={'100%'} height={'55vh'} index={2}/>*/}
-      <Image className={styles.image} src={foto_1_5} height="275" alt="hero foto"/>
+      <Image className={styles.image} src={foto_1_5} height="540" alt="hero foto"/>
       <div className={styles.text_container}>
-        <Image className={styles.logo} src={HeroLogo} height="250" alt="hero logo" />
+        <Image className={styles.logo} src={HeroLogo} height="150" alt="hero logo" />
         <h1 className={styles.title}>Punto Alem</h1>
         <h4 className={styles.sub_title}>EVENTOS & CATERING</h4>
         <div className={styles.footer}>

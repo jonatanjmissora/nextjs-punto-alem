@@ -1,11 +1,11 @@
 .hero {
-  margin-top: var(--navbar-desktop-height);
-  height: calc(100dvh - var(--navbar-desktop-height));
-  background: rgb(250, 250, 255);
+  height: 100vh;
+  height: 100dvh;
+  background: linear-gradient(to bottom, rgb(240, 240, 255), rgb(253, 253, 255));
 }
 
 .image {
-  height: 55vh;
+  height: 65vh;
   object-fit: cover;
   width: 100%;
 }
@@ -19,7 +19,7 @@
 }
 
 .logo {
-  width: 40vw;
+  height: 180px;
 }
 
 .title {
@@ -44,12 +44,11 @@
 .footer {
   font-weight: 400;
   color: var(--blue);
-
 }
 
 .footer span {
   margin: 0 1rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   opacity: 0.75;
 }
 

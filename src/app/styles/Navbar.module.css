@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem;
+  padding: 1rem 6.5rem;
   position: fixed;
   top: 0;
   width: 100vw;
@@ -25,7 +25,8 @@
 } */
 
 .logo {
-  width: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .navList {
@@ -37,6 +38,7 @@
   color: var(--gold);
   letter-spacing: 1px;
   font-weight: 300;
+  font-size: 0.75rem;
 }
 
 /* 

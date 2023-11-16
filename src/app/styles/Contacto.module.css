@@ -1,6 +1,7 @@
 .contact {
   position: relative;
   margin-top: 10rem;
+  height: calc(100vh - var(--navbar-desktop-height));
 }
 
 .image {
@@ -136,8 +137,14 @@
   border: 1px solid #aaa;
 }
 
+.image1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .image2 {
-  height: 60dvh;
+  height: 50dvh;
   width: 100%;
   object-fit: cover;
 }
