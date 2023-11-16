@@ -1,4 +1,6 @@
+import Image from 'next/image'
 import styles from '../styles/Description.module.css'
+import foto_1_1 from "../assets/foto_1_1.jpg"
 import { Carrousel } from './Carrousel'
 
 export const Description = () => {
@@ -23,10 +25,9 @@ export const Description = () => {
         </div>
 
       </article>
-      <Carrousel category={'foto2'} width={'100%'} height={'55vh'} index={0}/>
-        {/* <div className={styles.parallax}>
-          <img className={styles.image} src={heroImg} alt="" />
-        </div> */}
+      {/*<Carrousel category={'foto2'} width={'100%'} height={'55vh'} index={0}/>*/}
+      <Image className={styles.image} src={foto_1_1} height="250" alt="description foto" />
+        
     </section>
   )
 }

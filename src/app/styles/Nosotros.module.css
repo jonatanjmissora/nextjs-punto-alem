@@ -1,3 +1,8 @@
+.image {
+  width: 40vw;
+  height: 55vh;
+}
+
 .nosotros {
   display: grid;
   place-items: center;
@@ -46,6 +51,9 @@
     transform: translateX(0);
     width: 100vw;
     margin: 8rem 0;
+  }
+  .image {
+    width: 100%;
   }
 
   .text_container {

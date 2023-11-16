@@ -42,7 +42,6 @@ body {
   background: var(--body-bg);
   color: var(--black);
   position: relative;
-  background: green;
 }
 
 p,
