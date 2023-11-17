@@ -1,14 +1,18 @@
 import Image from 'next/image'
 import styles from '../styles/Corporativos.module.css'
-import foto_5_3 from "../assets/foto_5_3.jpg"
-import { Carrousel } from './Carrousel'
+import fotos from "../constant"
 
 export const Corporativos = () => {
   return (
     <section className={styles.corporativos} id="corporativos">
       <div className={styles.wrapper}>
-        {/* <Carrousel category={'foto5'} width={'40vw'} height={'30vw'} index={2}/> */}
-        <Image className={styles.image} height="375" src={foto_5_3} alt="nosotors foto" />
+        <Image 
+        className={styles.image} 
+        height="375" 
+        src={fotos["10"].foto} 
+        alt={fotos["10"].alt}
+        title={fotos["10"].title}
+        />
         <div className={styles.text_container}>
           <h3 className={styles.title}>Corporativos</h3>
           <p>Si quieres organizar un evento corporativo exitoso, nuestro salón te ofrece el tamaño ideal, dónde podrás realizar fiestas de fin de año, jornadas de trabajo, congresos o exhibiciones de producto, recepciones, etc.</p>

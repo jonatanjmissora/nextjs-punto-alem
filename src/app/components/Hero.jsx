@@ -1,15 +1,27 @@
 import Image from 'next/image'
 import HeroLogo from '../assets/HeroLogo.svg'
 import styles from '../styles/Hero.module.css'
-import foto_1_5 from "../assets/foto_1_5.jpg"
-import { Carrousel } from './Carrousel'
+import fotos from "../constant"
+
 
 export const Hero = () => {
   return (
     <section className={styles.hero} id="inicio">
-      <Image className={styles.image} src={foto_1_5} height="540" alt="hero foto"/>
+      <Image 
+      className={styles.image} 
+      src={fotos["03"].foto} 
+      height="540" 
+      alt={fotos["03"].alt}
+      title={fotos["03"].title}
+      />
       <div className={styles.text_container}>
-        <Image className={styles.logo} src={HeroLogo} height="150" alt="hero logo" />
+        <Image 
+        className={styles.logo} 
+        src={HeroLogo} 
+        height="150" 
+        title="hero_logo"
+        alt="hero logo" 
+        />
         <h1 className={styles.title}>Punto Alem</h1>
         <h4 className={styles.sub_title}>EVENTOS & CATERING</h4>
         <div className={styles.footer}>

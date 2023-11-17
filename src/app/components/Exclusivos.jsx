@@ -1,13 +1,17 @@
 import Image from 'next/image'
 import styles from '../styles/Exclusivos.module.css'
-import foto_5_1 from "../assets/foto_5_1.jpg"
-import { Carrousel } from './Carrousel'
+import fotos from "../constant"
 
 export const Exclusivos = () => {
   return (
     <article className={styles.exclusivos}>
-      <Image className={styles.image} src={foto_5_1} height="350" alt="exclusivos foto" />
-      {/* <Carrousel category={'foto6'} width={'100%'} height={'80vh'} index={0}/> */}
+      <Image 
+      className={styles.image} 
+      src={fotos["08"].foto} 
+      height="350" 
+      alt={fotos["08"].alt}
+      title={fotos["08"].title}
+      />
       <div className={styles.text_container}>
         <h3 className={styles.title}>Exclusivos</h3>
         <p>Punto Alem se distingue por su hermoso parquizado en un lugar mágico dentro de la ciudad. Los eventos diurnos y nocturnos no tendrán comparación.</p>

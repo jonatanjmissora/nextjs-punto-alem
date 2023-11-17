@@ -21,3 +21,7 @@ export default function Home() {
     </main>
   )
 }
+
+// falta media queries para monitor alba
+// falta animar
+// falta galeria
