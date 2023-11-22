@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import { FacebookSvg, InstagramSvg, MailSvg, MapPinSvg, PhoneSvg } from '../assets/icons/Svg'
-import styles from '../styles/Contacto.module.css'
+import styles from '../styles/_09Contacto.module.css'
 import fotos from "../constant"
+import { FramerReveal } from './FramerReveal'
 
-export const Contacto = () => {
+export const _09Contacto = () => {
   return (
     <section id="contacto">
 
@@ -53,7 +54,11 @@ export const Contacto = () => {
       </article>
 
       <article className={styles.data}>
-        <div className={styles.data_item}>
+
+        <FramerReveal
+          className={styles.data_item}
+          options={{from: "bottom", amount:"100", delay: "0"}}
+        >
           <i ><MapPinSvg /></i>
           <h4 className={styles.title}>Ubicanos</h4>
           <div>
@@ -61,32 +66,41 @@ export const Contacto = () => {
             <p>Bahía Blanca CP 8000,</p>
             <p>LoBuenos Airesem</p>
           </div>
-        </div>
+        </FramerReveal>
 
-        <div className={styles.data_item}>
-        <i><PhoneSvg /></i>
+        <FramerReveal
+          className={styles.data_item}
+          options={{from: "bottom", amount:"100", delay: "0.25"}}
+        >
+          <i><PhoneSvg /></i>
           <h4 className={styles.title}>Llamanos</h4>
           <div>
             <p>291 - 4054505</p>
           </div>
-        </div>
+        </FramerReveal>
 
-        <div className={styles.data_item}>
-        <i><MailSvg /></i>
+        <FramerReveal
+          className={styles.data_item}
+          options={{from: "bottom", amount:"100", delay: "0.5"}}
+        >
+          <i><MailSvg /></i>
           <h4 className={styles.title}>Escribinos</h4>
           <div>
             <p>puntoalemeventos@gmail.com</p>
           </div>
-        </div>
+        </FramerReveal>
 
-        <div className={styles.data_item}>
-        <i><InstagramSvg /><FacebookSvg /></i>
+        <FramerReveal
+          className={styles.data_item}
+          options={{from: "bottom", amount:"100", delay: "0.75"}}
+        >
+          <i><InstagramSvg /><FacebookSvg /></i>
           <h4 className={styles.title}>Seguinos</h4>
           <div>
             <p>/punto.alem</p>
             <p>/Puntoalemeventos</p>
           </div>
-        </div>
+        </FramerReveal>
 
       </article>
 

@@ -90,7 +90,7 @@
 .data {
   display: flex;
   justify-content: center;
-  gap: 10vw;
+  gap: 7vw;
   padding: 10rem 0;
   color: var(--blue);
   background: white;

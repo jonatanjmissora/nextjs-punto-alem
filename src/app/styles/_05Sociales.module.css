@@ -7,11 +7,11 @@
   font-size: 1rem;
   text-align: left;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 3%;
+  top: 14%;
+  right: 10%;
   width: 40dvw;
   padding: 2rem 4rem;
+  z-index: 10;
 }
 
 .text_container::before {

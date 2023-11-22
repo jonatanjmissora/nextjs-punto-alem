@@ -8,9 +8,9 @@
   font-size: 1rem;
   text-align: left;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 3%;
+  z-index: 10;
+  top: 14%;
+  right: 10%;
   width: 40dvw;
   padding: 2rem 4rem;
 }

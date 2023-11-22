@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import HeroLogo from '../assets/HeroLogo.svg'
-import styles from '../styles/Hero.module.css'
+import styles from '../styles/_02Hero.module.css'
 import fotos from "../constant"
+import { FramerReveal } from './FramerReveal'
 
 
-export const Hero = () => {
+export const _02Hero = () => {
   return (
     <section className={styles.hero} id="inicio">
       <Image 
@@ -14,17 +15,25 @@ export const Hero = () => {
       alt={fotos["03"].alt}
       title={fotos["03"].title}
       />
+
       <div className={styles.text_container}>
-        <Image 
-        className={styles.logo} 
-        src={HeroLogo} 
-        height="150" 
-        title="hero_logo"
-        alt="hero logo" 
-        />
+        <FramerReveal 
+          options={{from: "top", amount:"100", delay: "0"}}
+        >
+          <Image 
+          className={styles.logo} 
+          src={HeroLogo} 
+          height="150" 
+          title="hero_logo"
+          alt="hero logo" 
+          />
+        </FramerReveal>
         <h1 className={styles.title}>Punto Alem</h1>
         <h4 className={styles.sub_title}>EVENTOS & CATERING</h4>
-        <div className={styles.footer}>
+        <FramerReveal 
+          lassName={styles.footer}
+          options={{from: "top", amount:"20", delay: "1"}}
+        >
           <span>Salon</span>
           <span>-</span>
           <span>Livings</span>
@@ -32,7 +41,7 @@ export const Hero = () => {
           <span>Jardin</span>
           <span>-</span>
           <span>Aire Libre</span>
-        </div>
+        </FramerReveal>
       </div>
     </section>
   )

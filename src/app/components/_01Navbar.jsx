@@ -1,10 +1,10 @@
 import Link from "next/link"
-import styles from "../styles/Navbar.module.css"
+import styles from "../styles/_01Navbar.module.css"
 import NavLogo from "../assets/NavLogo.svg"
 import { CloseSvg, MenuSvg } from '../assets/icons/Svg'
 import Image from "next/image"
 
-export const Navbar = () => {
+export const _01Navbar = () => {
   return (
     <header className={styles.header}>
       <Image 

@@ -7,6 +7,7 @@
 .image {
   height: 65vh;
   object-fit: cover;
+  object-position: center;
   width: 100%;
 }
 
