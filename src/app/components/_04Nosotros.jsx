@@ -9,7 +9,7 @@ export const _04Nosotros = () => {
       <div className={styles.wrapper}>
         <FramerReveal 
           className={styles.text_container}
-          options={{from: "left", amount:"100", delay: "0"}}
+          options={{from: "left"}}
         >
           <h3 className={styles.title}>Nosotros</h3>
           <p>Nos dedicamos a la organización de eventos sociales y corporativos, con una trayectoria de más de 20 años de experiencia.</p>
@@ -18,14 +18,13 @@ export const _04Nosotros = () => {
         </FramerReveal>
 
         <FramerReveal 
-          options={{from: "right", amount:"100", delay: "0"}}
+          options={{from: "right"}}
         >
           <Image 
           className={styles.image} 
-          height="375" 
-          src={fotos["02"].foto} 
-          alt={fotos["02"].alt}
-          title={fotos["02"].title}
+          src={fotos["03"].foto} 
+          alt={fotos["03"].alt}
+          title={fotos["03"].title}
           />
         </FramerReveal>
       </div>

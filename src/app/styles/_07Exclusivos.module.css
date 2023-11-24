@@ -2,6 +2,9 @@
   position: relative;
   height: 100vh;
   height: 100dvh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .text_container {
@@ -9,10 +12,9 @@
   text-align: left;
   position: absolute;
   z-index: 10;
-  top: 14%;
-  right: 10%;
   width: 40dvw;
   padding: 2rem 4rem;
+  margin-right: 10rem;
 }
 
 .text_container::before {
@@ -50,22 +52,22 @@
 }
 
 @media (max-width: 760px) {
+  .exclusivos {
+    margin-top: 20rem;
+  }
 
   .text_container {
     width: 90vw;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    left: 5vw;
+    top: 20%;
     padding: 2rem;
   }
 
   .exclusivos .title {
-    font-size: 1.75rem;
-    font-weight: 400;
+    font-size: 2rem;
   }
 
   .exclusivos p {
-    font-size: 1rem;
-    line-height: 1.75;
+    font-size: 1.25rem;
   }
 }

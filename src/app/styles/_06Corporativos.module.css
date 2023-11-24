@@ -43,9 +43,14 @@
 .image {
   width: 35vw;
   height: 55vh;
+  object-fit: cover;
 }
 
 @media (max-width: 760px) {
+  .corporativos {
+    margin-top: 10rem;
+  }
+
   .wrapper {
     flex-direction: column-reverse;
     align-items: center;
@@ -60,12 +65,16 @@
   }
 
   .corporativos .title {
-    font-size: 1.75rem;
-    font-weight: 400;
+    font-size: 2rem;
   }
 
   .corporativos p {
-    font-size: 1rem;
-    line-height: 1.75;
+    font-size: 1.25rem;
+  }
+
+  .image {
+    width: 100vw;
+    height: 55vh;
+    object-fit: cover;
   }
 }

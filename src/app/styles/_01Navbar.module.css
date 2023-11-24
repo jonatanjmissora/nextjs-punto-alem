@@ -1,3 +1,8 @@
+.framer_header {
+  position: fixed;
+  z-index: 1001;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -89,6 +94,10 @@
 }
 
 @media (max-width: 760px) {
+  .header {
+    padding: 2rem 3rem;
+  }
+
   .icons {
     display: block
   }

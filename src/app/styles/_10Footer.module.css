@@ -1,5 +1,5 @@
 .footer {
-  height: 8rem;
+  height: 12rem;
   background: var(--light-gold);
   color: var(--light-gold);
   display: flex;
@@ -8,10 +8,10 @@
 }
 
 .footer a {
-  background: linear-gradient(165deg, rgb(76, 88, 147), black, rgb(76, 88, 147));
+  background: linear-gradient(165deg, rgb(76, 88, 147), rgb(61, 61, 61), rgb(76, 88, 147));
   margin: 0.5rem;
   border: 1px solid #555;
-  opacity: 0.5
+  font-size: 0.5rem;
 }
 
 @media (max-width: 760px) {

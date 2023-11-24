@@ -1,14 +1,15 @@
 .sociales {
   position: relative;
   height: calc(100vh - var(--navbar-desktop-height));
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .text_container {
   font-size: 1rem;
-  text-align: left;
   position: absolute;
-  top: 14%;
-  right: 10%;
+  margin-right: 10rem;
   width: 40dvw;
   padding: 2rem 4rem;
   z-index: 10;
@@ -46,29 +47,37 @@
   margin-top: 1rem;
 }
 
+.image_container {
+  height: calc(100vh - var(--navbar-desktop-height));
+  width: 100vw;
+}
+
 .image {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: bottom;
 }
 
 @media (max-width: 760px) {
+  .sociales {
+    margin-top: 30rem;
+  }
 
   .text_container {
     width: 90vw;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    left: 5vw;
+    top: 20%;
     padding: 2rem;
   }
 
   .sociales .title {
-    font-size: 1.75rem;
-    font-weight: 400;
+    font-size: 2rem;
+    /* font-weight: 400; */
   }
 
   .sociales p {
-    font-size: 1rem;
-    line-height: 1.75;
+    font-size: 1.25rem;
+    /* line-height: 1.75; */
   }
 }

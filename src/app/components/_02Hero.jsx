@@ -8,22 +8,27 @@ import { FramerReveal } from './FramerReveal'
 export const _02Hero = () => {
   return (
     <section className={styles.hero} id="inicio">
-      <Image 
-      className={styles.image} 
-      src={fotos["03"].foto} 
-      height="540" 
-      alt={fotos["03"].alt}
-      title={fotos["03"].title}
-      />
+
+      <FramerReveal 
+          options={{from: "none", amount:"0", duration: "4"}}
+          >
+      <div className={styles.image_container}>
+        <Image 
+          className={styles.image} 
+          src={fotos["01"].foto} 
+          alt={fotos["01"].alt}
+          title={fotos["01"].title}
+          />
+      </div>
+      </FramerReveal>
 
       <div className={styles.text_container}>
         <FramerReveal 
-          options={{from: "top", amount:"100", delay: "0"}}
+          options={{from: "top", duration: "2"}}
         >
           <Image 
           className={styles.logo} 
           src={HeroLogo} 
-          height="150" 
           title="hero_logo"
           alt="hero logo" 
           />
@@ -31,8 +36,8 @@ export const _02Hero = () => {
         <h1 className={styles.title}>Punto Alem</h1>
         <h4 className={styles.sub_title}>EVENTOS & CATERING</h4>
         <FramerReveal 
-          lassName={styles.footer}
-          options={{from: "top", amount:"20", delay: "1"}}
+          className={styles.footer}
+          options={{from: "bottom", amount:"20", delay: "1", margin: "0"}}
         >
           <span>Salon</span>
           <span>-</span>

@@ -12,10 +12,9 @@ export const _09Contacto = () => {
 
       <Image 
       className={styles.image1} 
-      src={fotos["11"].foto} 
-      height="700" 
-      alt={fotos["11"].alt}
-      title={fotos["11"].title}
+      src={fotos["12"].foto} 
+      alt={fotos["12"].alt}
+      title={fotos["12"].title}
       />
       <form className={styles.form}>
         <h2 className={styles.form_title}>Tu evento comienza aquí</h2>
@@ -57,7 +56,7 @@ export const _09Contacto = () => {
 
         <FramerReveal
           className={styles.data_item}
-          options={{from: "bottom", amount:"100", delay: "0"}}
+          options={{from: "bottom", amount:"60", margin: "-20", delay: "0"}}
         >
           <i ><MapPinSvg /></i>
           <h4 className={styles.title}>Ubicanos</h4>
@@ -70,7 +69,7 @@ export const _09Contacto = () => {
 
         <FramerReveal
           className={styles.data_item}
-          options={{from: "bottom", amount:"100", delay: "0.25"}}
+          options={{from: "bottom", amount:"60", margin: "-20", delay: "0.25"}}
         >
           <i><PhoneSvg /></i>
           <h4 className={styles.title}>Llamanos</h4>
@@ -81,7 +80,7 @@ export const _09Contacto = () => {
 
         <FramerReveal
           className={styles.data_item}
-          options={{from: "bottom", amount:"100", delay: "0.5"}}
+          options={{from: "bottom", amount:"60", margin: "-20", delay: "0.5"}}
         >
           <i><MailSvg /></i>
           <h4 className={styles.title}>Escribinos</h4>
@@ -92,7 +91,7 @@ export const _09Contacto = () => {
 
         <FramerReveal
           className={styles.data_item}
-          options={{from: "bottom", amount:"100", delay: "0.75"}}
+          options={{from: "bottom", amount:"60", margin: "-20", delay: "0.75"}}
         >
           <i><InstagramSvg /><FacebookSvg /></i>
           <h4 className={styles.title}>Seguinos</h4>
@@ -109,15 +108,14 @@ export const _09Contacto = () => {
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.4975654690215!2d-62.26956692319346!3d-38.70638397176545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbb55b84f5edf%3A0xa7ff388c796f4ab6!2sPunto%20Alem%20Eventos!5e0!3m2!1ses!2sar!4v1699539545707!5m2!1ses!2sar" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
       </article>
-
+      <div className={styles.image2_container}>
       <Image 
-      className={styles.image2} 
-      src={fotos["04"].foto} 
-      height="350" 
-      alt={fotos["04"].alt}
-        title={fotos["04"].title}
+        className={styles.image2} 
+        src={fotos["13"].foto} 
+        alt={fotos["13"].alt}
+        title={fotos["13"].title}
       />
-
+      </div>
     </section>
   )
 }

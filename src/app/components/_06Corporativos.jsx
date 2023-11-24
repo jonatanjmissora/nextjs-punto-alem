@@ -8,19 +8,18 @@ export const _06Corporativos = () => {
     <section className={styles.corporativos} id="corporativos">
       <div className={styles.wrapper}>
         <FramerReveal 
-            options={{from: "left", amount:"100", delay: "0"}}
+            options={{from: "left"}}
         >
           <Image 
           className={styles.image} 
-          height="375" 
-          src={fotos["10"].foto} 
-          alt={fotos["10"].alt}
-          title={fotos["10"].title}
+          src={fotos["05"].foto} 
+          alt={fotos["05"].alt}
+          title={fotos["05"].title}
           />
         </FramerReveal>
         <FramerReveal 
           className={styles.text_container}
-          options={{from: "right", amount:"100", delay: "0"}}
+          options={{from: "right"}}
         >
           <h3 className={styles.title}>Corporativos</h3>
           <p>Si quieres organizar un evento corporativo exitoso, nuestro salón te ofrece el tamaño ideal, dónde podrás realizar fiestas de fin de año, jornadas de trabajo, congresos o exhibiciones de producto, recepciones, etc.</p>

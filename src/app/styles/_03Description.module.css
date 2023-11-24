@@ -33,17 +33,24 @@
   color: var(--blue);
 }
 
-.image {
+.image_container {
   height: 65vh;
-  object-fit: cover;
-  width: 100%;
+  width: 100vw;
 }
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: 0% 25%;
+}
+
 
 @media (max-width: 760px) {
   .text_container {
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
     padding: 4rem 0;
     width: 100vw;
   }
@@ -61,4 +68,7 @@
     font-size: 1rem;
   }
 
+  .image {
+    object-position: center;
+  }
 }

@@ -6,16 +6,17 @@ import { FramerReveal } from './FramerReveal'
 export const _05Sociales = () => {
   return (
     <section className={styles.sociales} id="sociales">
+      <div className={styles.image_container}>
       <Image 
-      className={styles.image} 
-      src={fotos["06"].foto} 
-      height="415" 
-      alt={fotos["06"].alt}
-        title={fotos["06"].title}
+        className={styles.image} 
+        src={fotos["04"].foto} 
+        alt={fotos["04"].alt}
+        title={fotos["04"].title}
       />
+      </div>
       <FramerReveal 
           className={styles.text_container}
-          options={{from: "right", amount:"100", delay: "0"}}
+          options={{from: "right"}}
       >
         <h3 className={styles.title}>Sociales</h3>
         <p>Punto Alem es el lugar para vivir tu evento soñado. Podrás disfrutar de las más variadas celebraciones: desde casamientos, fiestas de quince hasta Bar Mitzvah, aniversarios, cumpleaños. Cualquier evento se convierte en un momento lleno de magia.</p>

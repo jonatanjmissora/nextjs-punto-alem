@@ -1,5 +1,9 @@
 .catering {
   margin-top: 10rem;
+  height: calc(100vh - var(--navbar-desktop-height));
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
@@ -8,7 +12,6 @@
   display: flex;
   justify-content: flex-end;
   gap: 5rem;
-  margin-bottom: 10rem;
 }
 
 .text_container {
@@ -63,10 +66,19 @@
   position: relative;
 }
 
-.image_row {
-  object-fit: cover;
+.image_row_container {
   height: 50vh;
   width: 60vw;
+}
+
+.image_row {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.image_row:last-of-type {
+  object-position: 0% 60%;
 }
 
 .row .frase {

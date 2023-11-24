@@ -143,10 +143,16 @@
   object-fit: cover;
 }
 
+.image2_container {
+  height: 70dvh;
+  width: 100vw;
+}
+
 .image2 {
-  height: 50dvh;
+  height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: bottom;
 }
 
 @media (max-width: 760px) {

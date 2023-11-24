@@ -10,7 +10,7 @@ export const _08Catering = () => {
         <div className={styles.wrapper}>
           <FramerReveal 
           className={styles.text_container}
-          options={{from: "left", amount:"100", delay: "0"}}
+          options={{from: "left"}}
           >
             <h3 className={styles.title}>Catering único y especial</h3>
             <p>Sorprender a tus invitados con un servicio gastronómico de primera clase. Nuestros chefs preparan platos únicos con elaboración propia y excelente calidad. Podrás degustar sabores exquisitos, desde entradas caliente y fría, tapeos, platos principales exclusivos, hasta los más finos y dulces postres y tortas.</p>
@@ -19,14 +19,13 @@ export const _08Catering = () => {
           </FramerReveal>
           <FramerReveal
           className={styles.image_container} 
-          options={{from: "right", amount:"100", delay: "0"}}
+          options={{from: "right"}}
           >
             <Image 
               className={styles.image1} 
-              src={fotos["12"].foto} 
-              height="350" 
-              alt={fotos["12"].alt}
-              title={fotos["12"].title}
+              src={fotos["07"].foto} 
+              alt={fotos["07"].alt}
+              title={fotos["07"].title}
             />
           </FramerReveal>
         </div>
@@ -35,18 +34,20 @@ export const _08Catering = () => {
       <article>
         <div className={styles.row}>
           <FramerReveal
-            options={{from: "left", amount:"100", delay: "0"}}
+            options={{from: "left"}}
           >
+            <div className={styles.image_row_container}>
+
             <Image 
               className={styles.image_row} 
-              src={fotos["13"].foto} 
-              height="250" 
-              alt={fotos["13"].alt}
-              title={fotos["13"].title} 
-            />
+              src={fotos["09"].foto} 
+              alt={fotos["09"].alt}
+              title={fotos["09"].title} 
+              />
+              </div>
           </FramerReveal>
           <FramerReveal
-            options={{from: "right", amount:"100", delay: "0"}}
+            options={{from: "right"}}
           >
             <h2 className={styles.frase}>DISTINCIÓN</h2>
           </FramerReveal>  
@@ -54,37 +55,39 @@ export const _08Catering = () => {
 
          <div className={styles.row}>
           <FramerReveal
-              options={{from: "left", amount:"100", delay: "0"}}
+              options={{from: "left"}}
           >
             <h2 className={styles.frase}>ESTILO</h2>
           </FramerReveal>
           <FramerReveal
-              options={{from: "right", amount:"100", delay: "0"}}
+              options={{from: "right"}}
           >
+            <div className={styles.image_row_container}>
             <Image 
             className={styles.image_row} 
-            src={fotos["14"].foto} 
-            height="250" 
-            alt={fotos["14"].alt}
-            title={fotos["14"].title}
+            src={fotos["10"].foto} 
+            alt={fotos["10"].alt}
+            title={fotos["10"].title}
             />
+            </div>
           </FramerReveal>
         </div>
 
         <div className={styles.row}>
           <FramerReveal
-              options={{from: "left", amount:"100", delay: "0"}}
-          >
+              options={{from: "left"}}
+          > 
+            <div className={styles.image_row_container}>
             <Image 
               className={styles.image_row} 
-              src={fotos["19"].foto} 
-              height="250" 
-              alt={fotos["19"].alt}
-              title={fotos["19"].title}
-            />
+              src={fotos["11"].foto} 
+              alt={fotos["11"].alt}
+              title={fotos["11"].title}
+              />
+              </div>
           </FramerReveal>
           <FramerReveal
-              options={{from: "right", amount:"100", delay: "0"}}
+              options={{from: "right"}}
           >
             <h2 className={styles.frase}>ELABORACIÓN</h2>
           </FramerReveal>

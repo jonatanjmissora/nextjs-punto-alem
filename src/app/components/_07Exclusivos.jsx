@@ -8,14 +8,13 @@ export const _07Exclusivos = () => {
     <article className={styles.exclusivos}>
       <Image 
       className={styles.image} 
-      src={fotos["08"].foto} 
-      height="350" 
-      alt={fotos["08"].alt}
-      title={fotos["08"].title}
+      src={fotos["06"].foto} 
+      alt={fotos["06"].alt}
+      title={fotos["06"].title}
       />
       <FramerReveal 
         className={styles.text_container}
-        options={{from: "right", amount:"100", delay: "0"}}
+        options={{from: "right"}}
       >
         <h3 className={styles.title}>Exclusivos</h3>
         <p>Punto Alem se distingue por su hermoso parquizado en un lugar mágico dentro de la ciudad. Los eventos diurnos y nocturnos no tendrán comparación.</p>
