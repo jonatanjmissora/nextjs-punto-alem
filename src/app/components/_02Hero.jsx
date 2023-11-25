@@ -32,10 +32,12 @@ export const _02Hero = () => {
           src={HeroLogo} 
           title="hero_logo"
           alt="hero logo" 
+          width="400"
+          height="1000"
           />
         </FramerReveal>
         <h1 className={styles.title}>Punto Alem</h1>
-        <h4 className={styles.sub_title}>EVENTOS & CATERING</h4>
+        <h2 className={styles.sub_title}>EVENTOS & CATERING</h2>
         <FramerReveal 
           className={styles.footer}
           options={{from: "bottom", amount:"20", delay: "1", margin: "0"}}
