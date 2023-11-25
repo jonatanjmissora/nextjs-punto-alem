@@ -24,8 +24,14 @@
   align-items: center;
 }
 
-.logo {
+.logo_container {
   height: 17vw;
+  width: 55vw;
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
 }
 
 .title {
@@ -57,13 +63,13 @@
   margin: 1rem;
   font-size: 1rem;
 }
+
 @media (max-width: 1400px) {
   .image_container {
     height: 65vh;
   }
-  .logo {
-    height: 12vw;
-  }
+
+  .logo_container {}
 }
 
 @media (max-width: 760px) {
@@ -71,8 +77,9 @@
     object-position: center;
   }
 
-  .logo {
-    height: 40vw;
+  .logo_container {
+    height: 50vw;
+    width: 100vw;
   }
 
   .footer span {

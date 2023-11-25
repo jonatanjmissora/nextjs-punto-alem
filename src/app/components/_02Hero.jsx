@@ -25,16 +25,17 @@ export const _02Hero = () => {
 
       <div className={styles.text_container}>
         <FramerReveal 
+          className={styles.logo_container}
           options={{from: "top", duration: "2"}}
         >
-          <Image 
-          className={styles.logo} 
-          src={HeroLogo} 
-          title="hero_logo"
-          alt="hero logo" 
-          width="100"
-          height="40"
-          />
+            <Image 
+            className={styles.logo} 
+            src={HeroLogo} 
+            title="hero_logo"
+            alt="hero logo" 
+            width="100"
+            height="40"
+            />
         </FramerReveal>
         <h1 className={styles.title}>Punto Alem</h1>
         <h2 className={styles.sub_title}>EVENTOS & CATERING</h2>
