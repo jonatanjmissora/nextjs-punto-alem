@@ -22,7 +22,7 @@ export const _04Nosotros = () => {
         >
           <Image 
           className={styles.image} 
-          src={fotos["03"].foto} 
+          src={fotos["03"].src} 
           alt={fotos["03"].alt}
           title={fotos["03"].title}
           />

@@ -3,6 +3,7 @@ import HeroLogo from '../assets/HeroLogo.svg'
 import styles from '../styles/_02Hero.module.css'
 import fotos from "../constant"
 import { FramerReveal } from './FramerReveal'
+// import foto1 from "../assets/foto1.jpg"
 
 
 export const _02Hero = () => {
@@ -15,7 +16,7 @@ export const _02Hero = () => {
       <div className={styles.image_container}>
         <Image 
           className={styles.image} 
-          src={fotos["01"].foto} 
+          src={fotos["01"].src} 
           alt={fotos["01"].alt}
           title={fotos["01"].title}
           />

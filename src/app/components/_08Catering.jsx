@@ -23,7 +23,7 @@ export const _08Catering = () => {
           >
             <Image 
               className={styles.image1} 
-              src={fotos["07"].foto} 
+              src={fotos["07"].src} 
               alt={fotos["07"].alt}
               title={fotos["07"].title}
             />
@@ -40,7 +40,7 @@ export const _08Catering = () => {
 
             <Image 
               className={styles.image_row} 
-              src={fotos["09"].foto} 
+              src={fotos["09"].src} 
               alt={fotos["09"].alt}
               title={fotos["09"].title} 
               />
@@ -67,7 +67,7 @@ export const _08Catering = () => {
             <div className={styles.image_row_container}>
             <Image 
             className={styles.image_row} 
-            src={fotos["10"].foto} 
+            src={fotos["10"].src} 
             alt={fotos["10"].alt}
             title={fotos["10"].title}
             />
@@ -82,7 +82,7 @@ export const _08Catering = () => {
             <div className={styles.image_row_container}>
             <Image 
               className={styles.image_row} 
-              src={fotos["11"].foto} 
+              src={fotos["11"].src} 
               alt={fotos["11"].alt}
               title={fotos["11"].title}
               />

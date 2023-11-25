@@ -8,7 +8,7 @@ export const _07Exclusivos = () => {
     <article className={styles.exclusivos}>
       <Image 
       className={styles.image} 
-      src={fotos["06"].foto} 
+      src={fotos["06"].src} 
       alt={fotos["06"].alt}
       title={fotos["06"].title}
       />

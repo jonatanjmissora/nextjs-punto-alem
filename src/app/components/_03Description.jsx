@@ -37,7 +37,7 @@ export const _03Description = () => {
       <div className={styles.image_container}>
         <Image 
           className={styles.image} 
-          src={fotos["02"].foto} 
+          src={fotos["02"].src} 
           alt={fotos["02"].alt}
           title={fotos["02"].title}
           />

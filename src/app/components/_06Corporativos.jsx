@@ -12,7 +12,7 @@ export const _06Corporativos = () => {
         >
           <Image 
           className={styles.image} 
-          src={fotos["05"].foto} 
+          src={fotos["05"].src} 
           alt={fotos["05"].alt}
           title={fotos["05"].title}
           />

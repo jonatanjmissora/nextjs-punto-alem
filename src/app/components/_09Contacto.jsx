@@ -12,7 +12,7 @@ export const _09Contacto = () => {
 
       <Image 
       className={styles.image1} 
-      src={fotos["12"].foto} 
+      src={fotos["12"].src} 
       alt={fotos["12"].alt}
       title={fotos["12"].title}
       />
@@ -111,7 +111,7 @@ export const _09Contacto = () => {
       <div className={styles.image2_container}>
       <Image 
         className={styles.image2} 
-        src={fotos["13"].foto} 
+        src={fotos["13"].src} 
         alt={fotos["13"].alt}
         title={fotos["13"].title}
       />

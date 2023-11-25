@@ -15,67 +15,67 @@ import foto13 from "./assets/foto13.jpg"
 const fotos =
 {
   "01": {
-    foto: foto1,
+    src: foto1,
     alt: "centro de mesa y copas",
     title: "centro_de_mesa_y_copas"
   },
   "02": {
-    foto: foto2,
+    src: foto2,
     alt: "novio con ramo",
     title: "novio_con_ramo"
   },
   "03": {
-    foto: foto3,
+    src: foto3,
     alt: "casamiento manos con anillos",
     title: "casamiento_manos_con_anillos"
   },
   "04": {
-    foto: foto4,
+    src: foto4,
     alt: "patio de punto alem",
     title: "patio_de_punto_alem"
   },
   "05": {
-    foto: foto5,
+    src: foto5,
     alt: "entrada de la calle punto alem",
     title: "entrada_de_la_calle_punto_alem"
   },
   "06": {
-    foto: foto6,
+    src: foto6,
     alt: "grupo de fiesta saludando",
     title: "grupo_de_fiesta_saludando"
   },
   "07": {
-    foto: foto7,
+    src: foto7,
     alt: "casamiento manos entrelazadas",
     title: "casamiento_manos_entrelazadas"
   },
   "08": {
-    foto: foto8,
+    src: foto8,
     alt: "carreta de fuego patio",
     title: "carreta_de_fuego_patio"
   },
   "09": {
-    foto: foto9,
+    src: foto9,
     alt: "mesa preparada para el evento",
     title: "mesa_preparada_para_el_evento"
   },
   "10": {
-    foto: foto10,
+    src: foto10,
     alt: "living 1 para recepcion",
     title: "living_1_para_recepcion"
   },
   "11": {
-    foto: foto11,
+    src: foto11,
     alt: "living 2 para recepcion",
     title: "living_2_para_recepcion"
   },
   "12": {
-    foto: foto12,
+    src: foto12,
     alt: "plato gourmet 1",
     title: "plato_gourmet_1"
   },
   "13": {
-    foto: foto13,
+    src: foto13,
     alt: "plato gourmet 2",
     title: "plato_gourmet_2"
   },

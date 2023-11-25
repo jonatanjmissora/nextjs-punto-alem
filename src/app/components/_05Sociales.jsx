@@ -9,7 +9,7 @@ export const _05Sociales = () => {
       <div className={styles.image_container}>
       <Image 
         className={styles.image} 
-        src={fotos["04"].foto} 
+        src={fotos["04"].src} 
         alt={fotos["04"].alt}
         title={fotos["04"].title}
       />
