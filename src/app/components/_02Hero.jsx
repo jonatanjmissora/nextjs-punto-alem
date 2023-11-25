@@ -32,8 +32,8 @@ export const _02Hero = () => {
           src={HeroLogo} 
           title="hero_logo"
           alt="hero logo" 
-          width="1000"
-          height="400"
+          width="100"
+          height="40"
           />
         </FramerReveal>
         <h1 className={styles.title}>Punto Alem</h1>
