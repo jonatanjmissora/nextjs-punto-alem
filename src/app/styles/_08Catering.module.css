@@ -23,17 +23,17 @@
 
 .text_container .title {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 1.25rem;
-  line-height: 1.4;
+  line-height: 2;
   color: var(--blue);
 }
 
 .text_container p {
   color: var(--blue);
   line-height: 2;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1rem;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .image_container {
-  width: 50vw;
+  width: 49vw;
 }
 
 .image1 {
@@ -51,14 +51,9 @@
   object-fit: cover;
 }
 
-.image {
-  width: 50vw;
-  height: 50vh;
-  object-fit: cover;
-}
-
 .row {
   display: flex;
+  justify-content: flex-end;
   height: 50vh;
   height: 50dvh;
   width: 100vw;
@@ -66,9 +61,14 @@
   position: relative;
 }
 
+.row:first-of-type,
+.row:last-of-type {
+  justify-content: flex-start;
+}
+
 .image_row_container {
-  height: 50vh;
-  width: 60vw;
+  height: 55vh;
+  width: 50vw;
 }
 
 .image_row {
@@ -82,10 +82,10 @@
 }
 
 .row .frase {
-  width: 40vw;
+  width: 50vw;
   line-height: 50dvh;
   font-size: 4rem;
-  font-weight: 200;
+  font-weight: 300;
   color: var(--gold);
   text-align: center;
   z-index: 2;
@@ -93,38 +93,54 @@
 
 @media (max-width: 760px) {
   .catering {
+    margin-top: 10rem;
+    height: max-content;
+  }
+  .wrapper {
     flex-direction: column;
+    height: max-content;
   }
 
   .text_container {
     width: 90%;
     margin-bottom: 3rem;
-    padding: 0;
+    padding: 2rem;
   }
 
   .catering .title {
     font-size: 2rem;
-    font-weight: 300;
-    letter-spacing: 2px;
-    margin-bottom: 1.25rem;
-    line-height: 1.4;
-    color: var(--blue);
   }
 
   .catering p {
-    color: var(--blue);
-    line-height: 2;
-    font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.25rem;
   }
-
+  .image_container {
+    width: 100vw;
+    height: 50vh;
+  }
   .row {
     margin: 0.5rem 0;
     height: 35vh;
   }
-
-  .row .frase {
+  .row:first-of-type {
+    margin-top: 10rem;
+  }
+  .image_row_container {
+    height: 100%;
+    width: 100vw;
+  }
+  .image_row {
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  .row .frase_container {
     position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+  }
+  .row .frase {
     bottom: 3rem;
     background: rgba(0, 0, 0, 0.5);
     width: 100%;

@@ -5,7 +5,7 @@ import { FramerReveal } from './FramerReveal'
 
 export const _03Description = () => {
   return (
-    <section className={styles.section}>
+    <section className={styles.description_section}>
 
       <article className={styles.text_container}>
 

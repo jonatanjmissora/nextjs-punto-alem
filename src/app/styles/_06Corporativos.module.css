@@ -22,7 +22,7 @@
 
 .text_container .title {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 2px;
   margin-bottom: 1.25rem;
   line-height: 1.4;
@@ -32,7 +32,7 @@
 .text_container p {
   color: var(--blue);
   line-height: 2;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1rem;
 }
 

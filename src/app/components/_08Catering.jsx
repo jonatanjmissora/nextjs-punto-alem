@@ -47,6 +47,7 @@ export const _08Catering = () => {
               </div>
           </FramerReveal>
           <FramerReveal
+            className={styles.frase_container}
             options={{from: "right"}}
           >
             <h2 className={styles.frase}>DISTINCIÓN</h2>
@@ -55,6 +56,7 @@ export const _08Catering = () => {
 
          <div className={styles.row}>
           <FramerReveal
+              className={styles.frase_container}
               options={{from: "left"}}
           >
             <h2 className={styles.frase}>ESTILO</h2>
@@ -87,7 +89,8 @@ export const _08Catering = () => {
               </div>
           </FramerReveal>
           <FramerReveal
-              options={{from: "right"}}
+            className={styles.frase_container}
+            options={{from: "right"}}
           >
             <h2 className={styles.frase}>ELABORACIÓN</h2>
           </FramerReveal>

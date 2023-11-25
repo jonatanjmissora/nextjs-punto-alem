@@ -48,7 +48,7 @@
 
 
 .footer {
-  font-weight: 400;
+  font-weight: 500;
   color: var(--blue);
   margin-top: 2rem;
 }
@@ -56,7 +56,14 @@
 .footer span {
   margin: 1rem;
   font-size: 1rem;
-  opacity: 0.75;
+}
+@media (max-width: 1400px) {
+  .image_container {
+    height: 65vh;
+  }
+  .logo {
+    height: 12vw;
+  }
 }
 
 @media (max-width: 760px) {

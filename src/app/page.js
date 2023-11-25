@@ -54,8 +54,6 @@ export default function Home() {
   )
 }
 
-// falta media queries para monitor alba
-// media queries para celu
 // falta galeria
 // falta formulario contacto
 

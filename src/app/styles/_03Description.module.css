@@ -1,6 +1,6 @@
-.section {
+.description_section {
   background: white;
-  padding-top: 5rem;
+  //padding-top: 5rem;
   background: linear-gradient(to bottom, rgb(253, 253, 255), white);
 }
 
@@ -20,15 +20,14 @@
 .description .title {
   margin-bottom: 1.5rem;
   font-family: Poppins;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 1.5rem;
   color: var(--gold);
 }
 
 .description p {
-  color: 111;
-  line-height: 1.75;
-  font-weight: 300;
+  line-height: 2;
+  font-weight: 500;
   font-size: 1rem;
   color: var(--blue);
 }
@@ -67,7 +66,9 @@
   .description p {
     font-size: 1rem;
   }
-
+  .image_container {
+    height: 40vh;
+  }
   .image {
     object-position: center;
   }
