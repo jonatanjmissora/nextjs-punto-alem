@@ -59,7 +59,7 @@ export const _09Contacto = () => {
           options={{from: "bottom", amount:"60", margin: "-20", delay: "0"}}
         >
           <i ><MapPinSvg /></i>
-          <h4 className={styles.title}>Ubicanos</h4>
+          <h3 className={styles.title}>Ubicanos</h3>
           <div>
             <p>Av Leandro N Alem 862,</p>
             <p>Bahía Blanca CP 8000,</p>
@@ -72,7 +72,7 @@ export const _09Contacto = () => {
           options={{from: "bottom", amount:"60", margin: "-20", delay: "0.25"}}
         >
           <i><PhoneSvg /></i>
-          <h4 className={styles.title}>Llamanos</h4>
+          <h3 className={styles.title}>Llamanos</h3>
           <div>
             <p>291 - 4054505</p>
           </div>
@@ -83,7 +83,7 @@ export const _09Contacto = () => {
           options={{from: "bottom", amount:"60", margin: "-20", delay: "0.5"}}
         >
           <i><MailSvg /></i>
-          <h4 className={styles.title}>Escribinos</h4>
+          <h3 className={styles.title}>Escribinos</h3>
           <div>
             <p>puntoalemeventos@gmail.com</p>
           </div>
@@ -94,7 +94,7 @@ export const _09Contacto = () => {
           options={{from: "bottom", amount:"60", margin: "-20", delay: "0.75"}}
         >
           <i><InstagramSvg /><FacebookSvg /></i>
-          <h4 className={styles.title}>Seguinos</h4>
+          <h3 className={styles.title}>Seguinos</h3>
           <div>
             <p>/punto.alem</p>
             <p>/Puntoalemeventos</p>
