@@ -1,6 +1,6 @@
 .catering {
   margin-top: 10rem;
-  height: calc(100vh - var(--navbar-desktop-height));
+  min-height: calc(100vh - var(--navbar-desktop-height));
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,8 +94,9 @@
 @media (max-width: 760px) {
   .catering {
     margin-top: 10rem;
-    height: max-content;
+    overflow: hidden;
   }
+
   .wrapper {
     flex-direction: column;
     height: max-content;
@@ -114,32 +115,39 @@
   .catering p {
     font-size: 1.25rem;
   }
+
   .image_container {
     width: 100vw;
-    height: 50vh;
+    height: 40vh;
   }
+
   .row {
     margin: 0.5rem 0;
     height: 35vh;
   }
+
   .row:first-of-type {
     margin-top: 10rem;
   }
+
   .image_row_container {
     height: 100%;
     width: 100vw;
   }
+
   .image_row {
     height: 100%;
     object-fit: cover;
     object-position: bottom;
   }
+
   .row .frase_container {
     position: absolute;
     left: 0;
     bottom: 0;
     width: 100vw;
   }
+
   .row .frase {
     bottom: 3rem;
     background: rgba(0, 0, 0, 0.5);
