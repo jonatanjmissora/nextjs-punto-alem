@@ -108,7 +108,7 @@
   color: var(--gold);
   width: 4rem;
   height: 4rem;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 
 .data_item i:last-of-type {
@@ -118,6 +118,7 @@
 .data_item .title {
   font-size: 2rem;
   font-weight: 400;
+  color: var(--gold);
 }
 
 .data_item p {
