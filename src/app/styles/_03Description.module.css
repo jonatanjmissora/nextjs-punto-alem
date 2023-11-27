@@ -1,5 +1,9 @@
 .description_section {
   background: white;
+<<<<<<< HEAD
+=======
+  padding-top: 5rem;
+>>>>>>> 7eb95a98a04aac449aadf97b249e462214925ed7
   background: linear-gradient(to bottom, rgb(253, 253, 255), white);
 }
 
