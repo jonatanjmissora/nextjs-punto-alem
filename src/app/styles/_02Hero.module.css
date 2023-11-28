@@ -69,7 +69,9 @@
     height: 65vh;
   }
 
-  .logo_container {}
+  .logo_container {
+    height: 15vw;
+  }
 }
 
 @media (max-width: 760px) {

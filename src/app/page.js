@@ -8,9 +8,9 @@ import { _05Sociales } from './components/_05Sociales'
 import { _06Corporativos } from './components/_06Corporativos'
 import { _07Exclusivos } from './components/_07Exclusivos'
 import { _08Catering } from './components/_08Catering'
+import { _08bisGaleria } from './components/_08bisGaleria'
 import { _09Contacto } from './components/_09Contacto'
 import { useEffect } from 'react'
-import { FramerParallax } from './components/FramerParallax'
 
 export default function Home() {
 
@@ -49,6 +49,7 @@ export default function Home() {
       <_06Corporativos />
       <_07Exclusivos />
       <_08Catering />
+      <_08bisGaleria />
       <_09Contacto />
     </main>
   )

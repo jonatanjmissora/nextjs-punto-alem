@@ -127,6 +127,17 @@
   line-height: 2;
 }
 
+.data_item a {
+  padding: 0 0.5rem;
+  transition: color 0.35s ease, background 0.35s ease;
+  border-radius: 1rem;
+}
+
+.data_item a:hover {
+  background: var(--blue);
+  color: var(--light-gold);
+}
+
 .google_map {
   padding-bottom: 60dvh;
   position: relative;

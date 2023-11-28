@@ -85,7 +85,7 @@ export const _09Contacto = () => {
           <i><MailSvg /></i>
           <h3 className={styles.title}>Escribinos</h3>
           <div>
-            <p>puntoalemeventos@gmail.com</p>
+            <p><a href="https://mail.google.com/mail/u/0/?fs=1&to=puntoalemeventos@gmail.com&su=&body=&bcc=&tf=cm" >puntoalemeventos@gmail.com</a></p>
           </div>
         </FramerReveal>
 
@@ -96,8 +96,8 @@ export const _09Contacto = () => {
           <i><InstagramSvg /><FacebookSvg /></i>
           <h3 className={styles.title}>Seguinos</h3>
           <div>
-            <p>/punto.alem</p>
-            <p>/Puntoalemeventos</p>
+            <p><a href="https://www.instagram.com/punto.alem/" target="_blank">/punto.alem</a></p>
+            <p><a href="https://www.facebook.com/Puntoalemeventos" target="_blank">/Puntoalemeventos</a></p>
           </div>
         </FramerReveal>
 
