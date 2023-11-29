@@ -1,7 +1,6 @@
 .corporativos {
   display: grid;
   place-items: center;
-  height: 100vh;
   height: calc(100vh - var(--navbar-desktop-height));
 }
 
@@ -48,10 +47,11 @@
 
 @media (max-width: 760px) {
   .corporativos {
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
 
   .wrapper {
+    padding-top: 4rem;
     flex-direction: column-reverse;
     align-items: center;
     transform: translateX(0);

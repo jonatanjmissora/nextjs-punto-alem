@@ -1,10 +1,21 @@
 .galery {
-  margin: 10rem 0;
+  min-height: 50vh;
+  margin-top: 8rem;
+}
+
+.galery .title {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 1.25rem;
+  color: var(--gold);
+  line-height: 1.4;
+  padding: 4rem 2rem;
+  padding-bottom: 1rem;
 }
 
 .galery_container {
   width: 100vw;
-  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,9 +23,8 @@
 }
 
 .sec_image {
-  flex: 0.75;
-  height: 70%;
-  position: relative;
+  flex: 1;
+  height: 35vh;
 }
 
 .sec_image img {
@@ -28,21 +38,21 @@
 .icon_container_left,
 .icon_container_right {
   position: absolute;
-  z-index: 5;
+  z-index: 10;
   top: 50%;
   transform: translateY(-50%);
-  height: 3rem;
+  height: 6rem;
   width: 2rem;
   background: var(--light-gold);
-  opacity: 0.75;
+  opacity: 0.8;
 }
 
 .icon_container_left {
-  right: 0;
+  right: calc(100% + 0.25rem);
 }
 
 .icon_container_right {
-  left: 0;
+  left: calc(100% + 0.25rem);
 }
 
 .galery svg {
@@ -52,42 +62,18 @@
 }
 
 .principal_image {
-  flex: 1.5;
-  height: 100%;
+  /* height: 80vh;
+  width: auto;
+  height: auto;
+  width: 60vw; */
   position: relative;
-  transition: all 0.5s ease;
+  height: 80vh;
+  max-width: 60vw;
 }
 
-.principal_image:hover .icon_container_expand {
-  opacity: 1;
-}
-
-.principal_image svg {
-  color: var(--light-gold);
-}
-
-.principal_image[data-expand="false"] {
-  flex: 1.5;
-  height: 100%;
-  transition: all 0.5s ease;
-}
-
-.principal_image[data-expand="true"] {
-  flex: auto;
-  height: 90vh;
-  transition: all 0.5s ease;
-}
-
-.icon_container_expand,
-.icon_container_close {
-  position: absolute;
-  top: 2.5%;
-  right: 1%;
-  width: 2rem;
-}
-
-.icon_container_expand {
-  opacity: 0;
+.galery_image {
+  animation: play 1.25s ease;
+  position: relative;
 }
 
 .galery img {
@@ -96,4 +82,43 @@
   object-fit: cover;
   object-position: center;
   display: block;
+}
+
+@keyframes play {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 760px) {
+  .galery {
+    margin-top: 8rem;
+  }
+
+  .galery .title {
+    padding-top: 4rem;
+  }
+
+  .sec_image {
+    display: none;
+  }
+
+  .principal_image {
+    max-width: 100vw;
+    min-width: 100vw;
+    height: auto;
+  }
+
+  .icon_container_left {
+    left: 0;
+  }
+
+  .icon_container_right {
+    left: 95%;
+  }
+
 }

@@ -93,13 +93,14 @@
 
 @media (max-width: 760px) {
   .catering {
-    margin-top: 10rem;
+    margin-top: 8rem;
     overflow: hidden;
   }
 
   .wrapper {
     flex-direction: column;
     height: max-content;
+    padding-top: 4rem;
   }
 
   .text_container {
