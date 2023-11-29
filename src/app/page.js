@@ -43,13 +43,13 @@ export default function Home() {
   return (
     <main>
       <_02Hero />
+      <_08bisGaleria />
       <_03Description />
       <_04Nosotros />
       <_05Sociales />
       <_06Corporativos />
       <_07Exclusivos />
       <_08Catering />
-      <_08bisGaleria />
       <_09Contacto />
     </main>
   )

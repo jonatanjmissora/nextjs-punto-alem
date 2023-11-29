@@ -1,6 +1,6 @@
 .galery {
   min-height: 50vh;
-  margin-top: 8rem;
+  margin-top: 12rem;
 }
 
 .galery .title {
@@ -67,7 +67,7 @@
   height: auto;
   width: 60vw; */
   position: relative;
-  height: 80vh;
+  height: 55vh;
   max-width: 60vw;
 }
 

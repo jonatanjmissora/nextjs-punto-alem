@@ -1,7 +1,7 @@
 .hero {
   height: 100vh;
   height: 100dvh;
-  background: linear-gradient(to bottom, rgb(240, 240, 255), rgb(253, 253, 255));
+  /* background: linear-gradient(to bottom, rgb(240, 240, 255), rgb(253, 253, 255)); */
 }
 
 .image_container {

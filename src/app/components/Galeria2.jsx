@@ -5,12 +5,13 @@ import styles from '../styles/_08bisGaleria.module.css'
 import { ChevronCompactLeftSvg, ChevronCompactRightSvg, CloseSvg, ExpandSvg } from '../assets/icons/Svg'
 import { useRef, useState } from 'react'
 
-export const _08bisGaleria = () => {
+export const Galeria2 = () => {
 
   const [actualPhotoIndex, setActualPhotoIndex] = useState(0)
   // const mainFoto = useRef(null)
 
   const fotosArray = Object.keys(fotos).sort((a, b) => a.localeCompare(b));
+  const fotosArrayIzq = fotosArray....
 
   const getBeforeIndex = (index) => {
     return index === 0 ? fotosArray.length - 1 : index - 1
@@ -29,7 +30,7 @@ export const _08bisGaleria = () => {
 
   return (
     <section className={styles.galery} id="galeria">
-      {/* <h3 className={styles.title}>Opcion 1</h3> */}
+      <h3 className={styles.title}>Opcion 1</h3>
       <div className={styles.galery_container}>
 
         <div className={styles.sec_image}>

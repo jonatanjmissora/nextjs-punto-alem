@@ -1,7 +1,7 @@
 .description_section {
   background: white;
   padding-top: 5rem;
-  background: linear-gradient(to bottom, rgb(253, 253, 255), white);
+  /* background: linear-gradient(to bottom, rgb(253, 253, 255), white); */
 }
 
 .text_container {
