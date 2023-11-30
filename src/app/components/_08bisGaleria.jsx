@@ -29,7 +29,7 @@ export const _08bisGaleria = () => {
 
   return (
     <section className={styles.galery} id="galeria">
-      {/* <h3 className={styles.title}>Opcion 1</h3> */}
+      <h3 className={styles.title}>Opcion 1</h3>
       <div className={styles.galery_container}>
 
         <div className={styles.sec_image}>

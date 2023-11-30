@@ -67,12 +67,12 @@
   height: auto;
   width: 60vw; */
   position: relative;
-  height: 55vh;
+  height: 70vh;
   max-width: 60vw;
 }
 
 .galery_image {
-  animation: play 1.25s ease;
+  animation: play 0.5s ease;
   position: relative;
 }
 

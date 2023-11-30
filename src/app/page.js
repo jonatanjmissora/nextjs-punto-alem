@@ -11,6 +11,8 @@ import { _08Catering } from './components/_08Catering'
 import { _08bisGaleria } from './components/_08bisGaleria'
 import { _09Contacto } from './components/_09Contacto'
 import { useEffect } from 'react'
+import { Galeria2 } from './components/Galeria2'
+import { Galeria3 } from './components/Galeria3'
 
 export default function Home() {
 
@@ -44,6 +46,8 @@ export default function Home() {
     <main>
       <_02Hero />
       <_08bisGaleria />
+      <Galeria2 />
+      <Galeria3 />
       <_03Description />
       <_04Nosotros />
       <_05Sociales />
