@@ -1,6 +1,6 @@
 import Link from "next/link"
 import styles from "../styles/_01Navbar.module.css"
-import NavLogo from "../assets/NavLogo.svg"
+import NavLogoIsoDora from "../assets/NavLogoIsoDora.svg"
 import { CloseSvg, FacebookSvg, InstagramSvg, MenuSvg } from '../assets/icons/Svg'
 import Image from "next/image"
 import { FramerReveal } from "./FramerReveal"
@@ -13,7 +13,7 @@ export const _01Navbar = () => {
     >
       <Image 
         className={styles.logo} 
-        src={NavLogo} 
+        src={NavLogoIsoDora} 
         title="navbar_logo"
         alt="menu logo" 
       />
@@ -37,8 +37,8 @@ export const _01Navbar = () => {
       </nav>
 
       <div className={styles.socials}>
-        <a href="https://www.instagram.com/punto.alem/" target="_blank"><InstagramSvg /></a>
-        <a href="https://www.facebook.com/Puntoalemeventos" target="_blank"><FacebookSvg /></a>
+        <a className={styles.icon_container} href="https://www.instagram.com/punto.alem/" target="_blank"><InstagramSvg /></a>
+        <a className={styles.icon_container} href="https://www.facebook.com/Puntoalemeventos" target="_blank"><FacebookSvg className={styles.facebook_svg}/></a>
       </div>
 
     </FramerReveal>

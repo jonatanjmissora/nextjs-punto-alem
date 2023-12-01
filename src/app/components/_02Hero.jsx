@@ -10,7 +10,7 @@ export const _02Hero = () => {
   return (
     <section className={styles.hero} id="inicio">
 
-      <FramerReveal 
+      {/* <FramerReveal 
           options={{from: "none", amount:"0", duration: "4"}}
           >
       <div className={styles.image_container}>
@@ -21,6 +21,13 @@ export const _02Hero = () => {
           title={fotos["01"].title}
           />
       </div>
+      </FramerReveal> */}
+
+      <FramerReveal 
+          options={{from: "none", amount:"0", duration: "4"}}
+      >
+        <div className={styles.image_container}>
+        </div>
       </FramerReveal>
 
       <div className={styles.text_container}>

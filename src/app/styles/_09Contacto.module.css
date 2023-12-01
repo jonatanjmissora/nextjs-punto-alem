@@ -104,15 +104,24 @@
   gap: 1rem;
 }
 
-.data_item svg {
-  color: var(--gold);
-  width: 4rem;
-  height: 4rem;
-  opacity: 0.75;
+.data_item .socials {
+  display: flex;
 }
 
-.data_item i:last-of-type {
-  display: flex;
+.data_item i {
+  width: 3.5rem;
+  height: 3.5rem;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.data_item svg {
+  color: var(--gold);
+  padding-bottom: 4px;
+  padding-left: 4px;
+  opacity: 0.75;
 }
 
 .data_item .title {

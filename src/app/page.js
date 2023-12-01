@@ -45,9 +45,6 @@ export default function Home() {
   return (
     <main>
       <_02Hero />
-      <_08bisGaleria />
-      <Galeria2 />
-      <Galeria3 />
       <_03Description />
       <_04Nosotros />
       <_05Sociales />
@@ -61,5 +58,6 @@ export default function Home() {
 
 // falta galeria
 // falta formulario contacto
+// borrar las galerias
 
 
