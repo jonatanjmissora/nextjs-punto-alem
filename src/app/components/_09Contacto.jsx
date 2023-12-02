@@ -72,7 +72,7 @@ export const _09Contacto = () => {
           options={{from: "bottom", amount:"60", margin: "-20", delay: "0.25"}}
         >
           <i><PhoneSvg /></i>
-          <h3 className={styles.title}>Llamanos</h3>
+          <h3 className={styles.title}>Escribinos</h3>
           <div>
             <p>291 - 4054505</p>
           </div>
@@ -82,7 +82,7 @@ export const _09Contacto = () => {
           className={styles.data_item}
           options={{from: "bottom", amount:"60", margin: "-20", delay: "0.5"}}
         >
-          <i><MailSvg /></i>
+          <i className={styles.mail_icon}><MailSvg /></i>
           <h3 className={styles.title}>Escribinos</h3>
           <div>
             <p><a href="https://mail.google.com/mail/u/0/?fs=1&to=info@puntoalemeventos.com&su=&body=&bcc=&tf=cm" >info@puntoalemeventos.com</a></p>

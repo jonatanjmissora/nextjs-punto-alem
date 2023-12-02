@@ -5,44 +5,87 @@
 }
 
 .image_container {
+  margin-top: var(--navbar-desktop-height);
   height: 65vh;
   width: 100vw;
 }
 
 .image_container {
-  background: url("/portada1.jpg");
+  background: url("/portada1.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  animation: play 24s ease infinite;
+  animation: play 60s ease infinite;
   animation-delay: 4s;
 }
 
 @keyframes play {
 
-  25% {
-    background: url("/portada2.jpg");
+  10% {
+    background: url("/portada2.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  20% {
+    background: url("/portada3.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  30% {
+    background: url("/portada4.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  40% {
+    background: url("/portada5.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 
   50% {
-    background: url("/portada3.jpg");
+    background: url("/portada6.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 
-  75% {
-    background: url("/portada4.jpg");
+  60% {
+    background: url("/portada7.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  70% {
+    background: url("/portada8.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  80% {
+    background: url("/portada9.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  90% {
+    background: url("/portada10.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
 
   100% {
-    background: url("/portada1.jpg");
+    background: url("/portada1.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -66,7 +109,7 @@
 }
 
 .logo_container {
-  height: 15vw;
+  height: 13vw;
   width: auto;
 }
 
@@ -97,7 +140,7 @@
 .footer {
   font-weight: 500;
   color: var(--blue);
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 }
 
 .footer span {
