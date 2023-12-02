@@ -134,7 +134,7 @@ export const PhoneSvg = () => {
 
 export const MailSvg = () => {
   return (
-    <svg viewBox="0.00 0.00 600.00 500.00">
+    <svg viewBox="0.00 0.00 600.00 500.00" preserveAspectRatio="none">
 <path fill="#CCA965" d="
   M 523.13 93.59
   L 396.30 237.05

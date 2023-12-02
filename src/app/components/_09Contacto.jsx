@@ -72,7 +72,7 @@ export const _09Contacto = () => {
           options={{from: "bottom", amount:"60", margin: "-20", delay: "0.25"}}
         >
           <i><PhoneSvg /></i>
-          <h3 className={styles.title}>Escribinos</h3>
+          <h3 className={styles.title}>Llamanos</h3>
           <div>
             <p>291 - 4054505</p>
           </div>
