@@ -93,7 +93,7 @@
     opacity: 0;
     background: url("/portada5.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 65%;
     background-size: cover;
   }
 
@@ -101,7 +101,7 @@
     opacity: 1;
     background: url("/portada5.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 65%;
     background-size: cover;
   }
 
@@ -109,7 +109,7 @@
     opacity: 1;
     background: url("/portada5.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 65%;
     background-size: cover;
   }
 
@@ -117,7 +117,7 @@
     opacity: 0;
     background: url("/portada5.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 65%;
     background-size: cover;
   }
 
@@ -192,7 +192,7 @@
     opacity: 0;
     background: url("/portada10.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 65%;
     background-size: cover;
   }
 
@@ -200,7 +200,7 @@
     opacity: 1;
     background: url("/portada10.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 65%;
     background-size: cover;
   }
 
@@ -208,7 +208,15 @@
     opacity: 1;
     background: url("/portada10.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 65%;
+    background-size: cover;
+  }
+
+  99.8% {
+    opacity: 0;
+    background: url("/portada10.webp");
+    background-repeat: no-repeat;
+    background-position: 65%;
     background-size: cover;
   }
 
@@ -216,8 +224,8 @@
     opacity: 0;
     background: url("/portada10.webp");
     background-repeat: no-repeat;
-    background-position: top right;
-    /* background-size: cover; */
+    background-position: center;
+    background-size: cover;
   }
 
   100% {
