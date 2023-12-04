@@ -9,7 +9,7 @@ export const _01Navbar = () => {
   return (
     <FramerReveal 
     className={styles.header}
-    options={{from: "top", amount:"20", margin: "0", tag: "header", delay: "1"}}    
+    options={{from: "top", amount:"20", margin: "0", tag: "header", delay: "0.5"}}    
     >
       <div className={styles.logo_container}>
         <Image 

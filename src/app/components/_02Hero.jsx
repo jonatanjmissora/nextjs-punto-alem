@@ -12,28 +12,17 @@ export const _02Hero = () => {
 
       {/* <FramerReveal 
           options={{from: "none", amount:"0", duration: "4"}}
-          >
-      <div className={styles.image_container}>
-        <Image 
-          className={styles.image} 
-          src={fotos["01"].src} 
-          alt={fotos["01"].alt}
-          title={fotos["01"].title}
-          />
-      </div>
-      </FramerReveal> */}
-
-      <FramerReveal 
-          options={{from: "none", amount:"0", duration: "4"}}
-      >
-        <div className={styles.image_container}>
+      > */}
+        <div className={styles.image_container_bg}>
+          <div className={styles.image_container}>
+          </div>
         </div>
-      </FramerReveal>
+      {/* </FramerReveal> */}
 
       <div className={styles.text_container}>
         <FramerReveal 
           className={styles.logo_container}
-          options={{from: "top", duration: "2"}}
+          options={{from: "top", duration: "1"}}
         >
             <Image 
             className={styles.logo} 
@@ -48,7 +37,7 @@ export const _02Hero = () => {
         <h2 className={styles.sub_title}>EVENTOS & CATERING</h2>
         <FramerReveal 
           className={styles.footer}
-          options={{from: "bottom", amount:"20", delay: "1", margin: "0"}}
+          options={{from: "bottom", amount:"20", delay: "0.5", margin: "0"}}
         >
           <span>Salon</span>
           <span>-</span>
