@@ -156,3 +156,9 @@ html.lenis {
 .lenis.lenis-scrolling iframe {
   pointer-events: none;
 }
+
+@media (max-width: 760px) {
+  :root {
+    --navbar-desktop-height: 4.5rem;
+  }
+}

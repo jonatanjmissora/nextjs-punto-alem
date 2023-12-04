@@ -74,7 +74,14 @@ export const _09Contacto = () => {
           className={styles.data_item}
           options={{from: "bottom", amount:"60", margin: "-20", delay: "0"}}
         >
-          <i ><MapPinSvg /></i>
+          <a 
+            className={styles.icon} 
+            href="https://maps.app.goo.gl/FuTkt3hptixiTBSw5" 
+            title="maps_location" 
+            target="_blank"
+          >
+            <MapPinSvg />
+          </a>
           <h3 className={styles.title}>Ubicanos</h3>
           <div>
             <p>Av Leandro N Alem 862,</p>
@@ -87,10 +94,25 @@ export const _09Contacto = () => {
           className={styles.data_item}
           options={{from: "bottom", amount:"60", margin: "-20", delay: "0.25"}}
         >
-          <i><PhoneSvg /></i>
+          <a 
+            className={styles.icon} 
+            href="https://wa.me/+5492914054505" 
+            title="maps_location" 
+            target="_blank"
+          >
+            <PhoneSvg />
+          </a>
           <h3 className={styles.title}>Llamanos</h3>
           <div>
-            <p>291 - 4054505</p>
+            <p>
+              <a 
+              href="https://wa.me/+5492914054505" 
+              title="maps_location" 
+              target="_blank"
+              >
+                291 - 4054505
+              </a>
+            </p>
           </div>
         </FramerReveal>
 
@@ -98,7 +120,14 @@ export const _09Contacto = () => {
           className={styles.data_item}
           options={{from: "bottom", amount:"60", margin: "-20", delay: "0.5"}}
         >
-          <i className={styles.mail_icon}><MailSvg /></i>
+          <a 
+            className={styles.mail_icon} 
+            href="https://mail.google.com/mail/u/0/?fs=1&to=info@puntoalemeventos.com&su=&body=&bcc=&tf=cm" 
+            title="maps_location" 
+            target="_blank"
+          >
+            <MailSvg />
+          </a>
           <h3 className={styles.title}>Escribinos</h3>
           <div>
             <p>
@@ -118,10 +147,24 @@ export const _09Contacto = () => {
           options={{from: "bottom", amount:"60", margin: "-20", delay: "0.75"}}
         >
           <div className={styles.socials}>
-            <i><InstagramSvg /></i>
-            <i><FacebookSvg className={styles.facebook_svg}/></i>
+            <a 
+              className={styles.icon} href="https://www.instagram.com/punto.alem/" 
+              title="maps_location" 
+              target="_blank"
+            >
+              <InstagramSvg />
+            </a>
+            <a 
+              className={styles.icon} 
+              href="https://www.facebook.com/Puntoalemeventos" 
+              title="maps_location" 
+              target="_blank"
+            >
+              <FacebookSvg 
+              className={styles.facebook_svg}
+              />
+            </a>
           </div>
-          {/* <i><InstagramSvg /><FacebookSvg /></i> */}
           <h3 className={styles.title}>Seguinos</h3>
           <div>
             <p>
@@ -150,7 +193,13 @@ export const _09Contacto = () => {
 
       <article>
       <div className={styles.google_map}>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.4975654690215!2d-62.26956692319346!3d-38.70638397176545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbb55b84f5edf%3A0xa7ff388c796f4ab6!2sPunto%20Alem%20Eventos!5e0!3m2!1ses!2sar!4v1699539545707!5m2!1ses!2sar" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade" title="google maps location"></iframe>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3113.4975654690215!2d-62.26956692319346!3d-38.70638397176545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95edbb55b84f5edf%3A0xa7ff388c796f4ab6!2sPunto%20Alem%20Eventos!5e0!3m2!1ses!2sar!4v1699539545707!5m2!1ses!2sar" 
+          allowFullScreen="" 
+          loading="lazy" 
+          referrerPolicy="no-referrer-when-downgrade" 
+          title="google maps location"
+        />
       </div>
       </article>
       <div className={styles.image2_container}>

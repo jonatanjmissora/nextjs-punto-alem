@@ -77,6 +77,8 @@
 
 .navList {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -98,14 +100,31 @@
 .icons {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  color: var(--gold);
 }
-
-.hamb,
-.icons,
+.hamb {
+  display: none;
+}
+.menu {
+  width: 3.5rem;
+  height: 3.5rem;
+}
 .close {
   display: none;
   color: var(--gold);
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.menu svg,
+.close svg {
+  width: 100%;
+  height: 100%;
 }
 
 .navList {
@@ -121,9 +140,13 @@
   .header {
     padding: 2rem 3rem;
   }
+  .logo {
+    width: 3rem;
+    height: 3rem;
+  }
 
   .icons {
-    display: block
+    display: flex;
   }
 
   .hamb:checked~.icons .menu {
@@ -140,6 +163,7 @@
     left: 0;
     width: 100%;
     height: 50vh;
+    height: 0;
     gap: 1rem;
     transition: 0.3s ease;
     overflow: hidden;
@@ -147,6 +171,7 @@
 
   .hamb:checked~nav .navList {
     background: var(--blue);
+    height: 50vh;
   }
 
   .navList li {
@@ -163,5 +188,9 @@
     opacity: 1;
     transition-delay: calc(0.15s * var(--i));
   }
-
+  
+  .socials svg {
+    width: 4rem;
+    height: 4rem;
+  }
 }
