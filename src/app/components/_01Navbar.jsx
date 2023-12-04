@@ -33,14 +33,27 @@ export const _01Navbar = () => {
           <li style={{ '--i': '2' }}><Link href="#sociales" title="sociales">SOCIALES</Link></li>
           <li style={{ '--i': '3' }}><Link href="#corporativos" title="corporativos">CORPORATIVOS</Link></li>
           <li style={{ '--i': '4' }}><Link href="#catering" title="catering">CATERING</Link></li>
-          <li style={{ '--i': '5' }}><Link href="#galeria" title="galeria">GALERIA</Link></li>
-          <li style={{ '--i': '6' }}><Link href="#contacto" title="contacto">CONTACTO</Link></li>
+          <li style={{ '--i': '5' }}><Link href="#contacto" title="contacto">CONTACTO</Link></li>
         </ul>
       </nav>
 
       <div className={styles.socials}>
-        <a className={styles.icon_container} href="https://www.instagram.com/punto.alem/" target="_blank"><InstagramSvg /></a>
-        <a className={styles.icon_container} href="https://www.facebook.com/Puntoalemeventos" target="_blank"><FacebookSvg className={styles.facebook_svg}/></a>
+        <a 
+          className={styles.icon_container} 
+          href="https://www.instagram.com/punto.alem/" 
+          target="_blank" 
+          title="instagram_de_la_empresa"
+        >
+            <InstagramSvg />
+        </a>
+        <a 
+          className={styles.icon_container} 
+          href="https://www.facebook.com/Puntoalemeventos" 
+          target="_blank" 
+          title="facebook_de_la_empresa"
+        >
+          <FacebookSvg className={styles.facebook_svg}/>
+        </a>
       </div>
 
     </FramerReveal>

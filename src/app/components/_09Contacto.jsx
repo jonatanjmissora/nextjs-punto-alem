@@ -3,8 +3,24 @@ import { FacebookSvg, InstagramSvg, MailSvg, MapPinSvg, PhoneSvg } from '../asse
 import styles from '../styles/_09Contacto.module.css'
 import fotos from "../constant"
 import { FramerReveal } from './FramerReveal'
+import Link from 'next/link'
 
 export const _09Contacto = () => {
+
+  const sendMail = (event) => {
+    event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
+    const [name, email, telephone, event_type, event_date, event_guests, message] = formData.values();
+    const body = `Nombre:   ${name}%0AMail:   ${email}%0ATeléfono:   ${telephone}%0ATipo de evento:   ${event_type}%0AFecha del evento:   ${event_date}%0ACant invitados:   ${event_guests}%0AMensaje:   ${message}`
+    
+    window.open(
+      `https://mail.google.com/mail/u/0/?fs=1&to=info@puntoalemeventos.com&su=${event_type}&body=${body}&bcc=&tf=cm`,
+      "_blank"
+    );
+    event.target.reset()
+  }
+
   return (
     <section id="contacto">
 
@@ -16,38 +32,38 @@ export const _09Contacto = () => {
       alt={fotos["12"].alt}
       title={fotos["12"].title}
       />
-      <form className={styles.form}>
+      <form className={styles.form} onSubmit={sendMail}>
         <h2 className={styles.form_title}>Tu evento comienza aquí</h2>
         <div className={styles.row}>
           <label htmlFor="name">Nombre y Apellido</label>
-          <input type="text" id="name" name="name"/>
+          <input type="text" id="name" name="name" required/>
         </div>
         <div className={styles.row}>
           <label htmlFor="email">Email</label>
-          <input type="text" id="email" name="email"/>
+          <input type="email" id="email" name="email" required/>
         </div>
         <div className={styles.row}>
           <label htmlFor="telephone">Telefono</label>
-          <input type="text" id="telephone" name="telephone"/>
+          <input type="text" id="telephone" name="telephone" required/>
         </div>
         <div className={styles.row}>
           <label htmlFor="event_type">Tipo de Evento</label>
-          <input type="text" id="event_type" name="event_type"/>
+          <input type="text" id="event_type" name="event_type" required/>
         </div>
         <div className={styles.row}>
           <label htmlFor="event_date">Fecha de Evento</label>
-          <input type="text" id="event_date" name="event_date"/>
+          <input type="text" id="event_date" name="event_date" required/>
         </div>
         <div className={styles.row}>
           <label htmlFor="event_guests">Cant. Invitados</label>
-          <input type="text" id="event_guests" name="event_guests"/>
+          <input type="text" id="event_guests" name="event_guests" required/>
         </div>
         <div className={styles.row_last}>
           <label htmlFor="message">Mensaje</label>
-          <textarea name="message" id="message" cols="30" rows="6"></textarea>
+          <textarea name="message" id="message" cols="30" rows="6" required></textarea>
         </div>
         <div className={styles.button_container}>
-          <button>Enviar</button>
+          <button type='submit'>Enviar</button>
         </div>
       </form>
       </article>
@@ -85,7 +101,15 @@ export const _09Contacto = () => {
           <i className={styles.mail_icon}><MailSvg /></i>
           <h3 className={styles.title}>Escribinos</h3>
           <div>
-            <p><a href="https://mail.google.com/mail/u/0/?fs=1&to=info@puntoalemeventos.com&su=&body=&bcc=&tf=cm" >info@puntoalemeventos.com</a></p>
+            <p>
+              <a 
+                href="https://mail.google.com/mail/u/0/?fs=1&to=info@puntoalemeventos.com&su=&body=&bcc=&tf=cm"
+                target="_blank" 
+                title="mail_de_la_empresa"
+              >
+                info@puntoalemeventos.com
+              </a>
+            </p>
           </div>
         </FramerReveal>
 
@@ -100,8 +124,25 @@ export const _09Contacto = () => {
           {/* <i><InstagramSvg /><FacebookSvg /></i> */}
           <h3 className={styles.title}>Seguinos</h3>
           <div>
-            <p><a href="https://www.instagram.com/punto.alem/" target="_blank">/punto.alem</a></p>
-            <p><a href="https://www.facebook.com/Puntoalemeventos" target="_blank">/Puntoalemeventos</a></p>
+            <p>
+              <a 
+                href="https://www.instagram.com/punto.alem/" 
+                target="_blank" 
+                title="instagram_de_la_empresa"
+              >
+                /punto.alem
+              </a>
+            </p>
+
+            <p>
+              <a 
+                href="https://www.facebook.com/Puntoalemeventos" 
+                target="_blank" 
+                title="facebook_de_la_empresa"
+              >
+                /Puntoalemeventos
+              </a>
+            </p>
           </div>
         </FramerReveal>
 

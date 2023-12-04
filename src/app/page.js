@@ -55,9 +55,3 @@ export default function Home() {
     </main>
   )
 }
-
-// falta galeria
-// falta formulario contacto
-// borrar las galerias
-
-
