@@ -86,7 +86,13 @@
   letter-spacing: 2px;
   font-weight: bold;
   background: var(--blue);
-  color: var(--light-gold)
+  color: var(--light-gold);
+  transition: background 0.35s ease, color 0.35s ease;
+}
+
+.form button:hover {
+  background: var(--light-gold);
+  color: var(--blue);
 }
 
 .data {
@@ -109,7 +115,8 @@
   display: flex;
 }
 
-.data_item i, .data_item .icon {
+.data_item i,
+.data_item .icon {
   width: 3.75rem;
   height: 3.5rem;
   display: grid;
@@ -119,13 +126,11 @@
 }
 
 .data_item .mail_icon {
-  width: 4.5rem;
+  width: 4.25rem;
+  height: 3.5rem;
+  padding: 0.25rem 0;
 }
 
-.data_item .mail_icon svg {
-  width: 100%;
-  padding: 0.4rem 0rem;
-}
 
 .data_item svg {
   color: var(--gold);
@@ -191,24 +196,29 @@
 }
 
 @media (max-width: 760px) {
-  .form_title{
-    font-size: 1.8rem;;
+  .form_title {
+    font-size: 1.8rem;
+    ;
   }
+
   .form {
     width: 100vw;
     padding: 2rem 1rem;
   }
 
-  .form .row, .form .row_last {
+  .form .row,
+  .form .row_last {
     justify-content: space-between;
     gap: 0;
     margin: 2rem 0;
     font-size: 1.25rem;
   }
 
-  .form .row label, .form .row_last label {
+  .form .row label,
+  .form .row_last label {
     width: 45vw;
   }
+
   .form .row input {
     height: 3rem;
     width: 50vw;
@@ -217,7 +227,7 @@
   .form .row_last textarea {
     width: 50vw;
   }
-  
+
 
   .data {
     flex-direction: column;
@@ -234,6 +244,7 @@
     width: 80%;
     margin: 0 auto;
   }
+
   .data_item p {
     font-size: 1.25rem;
   }
