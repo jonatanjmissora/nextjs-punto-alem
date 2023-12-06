@@ -127,7 +127,7 @@
     opacity: 0;
     background: url("/portada7.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 35%;
     background-size: cover;
   }
 
@@ -135,7 +135,7 @@
     opacity: 1;
     background: url("/portada7.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 35%;
     background-size: cover;
   }
 
@@ -143,7 +143,7 @@
     opacity: 1;
     background: url("/portada7.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 35%;
     background-size: cover;
   }
 
@@ -151,7 +151,7 @@
     opacity: 0;
     background: url("/portada7.webp");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 35%;
     background-size: cover;
   }
 
