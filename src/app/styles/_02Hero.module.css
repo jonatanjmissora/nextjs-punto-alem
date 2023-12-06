@@ -91,7 +91,7 @@
   /* ======================================= */
   31.6% {
     opacity: 0;
-    background: url("/portada5.webp");
+    background: url("/portada6.webp");
     background-repeat: no-repeat;
     background-position: 65%;
     background-size: cover;
@@ -99,7 +99,7 @@
 
   33% {
     opacity: 1;
-    background: url("/portada5.webp");
+    background: url("/portada6.webp");
     background-repeat: no-repeat;
     background-position: 65%;
     background-size: cover;
@@ -107,7 +107,7 @@
 
   46% {
     opacity: 1;
-    background: url("/portada5.webp");
+    background: url("/portada6.webp");
     background-repeat: no-repeat;
     background-position: 65%;
     background-size: cover;
@@ -115,7 +115,7 @@
 
   47.5% {
     opacity: 0;
-    background: url("/portada5.webp");
+    background: url("/portada6.webp");
     background-repeat: no-repeat;
     background-position: 65%;
     background-size: cover;
@@ -124,7 +124,7 @@
   /* ======================================= */
   47.6% {
     opacity: 0;
-    background: url("/portada8.webp");
+    background: url("/portada7.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -132,7 +132,7 @@
 
   49% {
     opacity: 1;
-    background: url("/portada8.webp");
+    background: url("/portada7.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -140,7 +140,7 @@
 
   63% {
     opacity: 1;
-    background: url("/portada8.webp");
+    background: url("/portada7.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -148,7 +148,7 @@
 
   64.5% {
     opacity: 0;
-    background: url("/portada8.webp");
+    background: url("/portada7.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

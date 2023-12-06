@@ -85,7 +85,8 @@
   padding: 0.5rem 1rem;
   letter-spacing: 2px;
   font-weight: bold;
-  color: var(--blue);
+  background: var(--blue);
+  color: var(--light-gold)
 }
 
 .data {
@@ -118,11 +119,11 @@
 }
 
 .data_item .mail_icon {
-  width: 4rem;
+  width: 4.5rem;
 }
 
 .data_item .mail_icon svg {
-  width: 7rem;
+  width: 100%;
   padding: 0.4rem 0rem;
 }
 
