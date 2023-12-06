@@ -412,23 +412,23 @@ export const CloseSvg = () => {
 }
 
 
-export const ChevronCompactLeftSvg = () => {
-  return (
-    <svg preserveAspectRatio="none" width="24" height="24" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-      <path d="M13 20l-3 -8l3 -8" />
-    </svg>
-    )
-  }
+// export const ChevronCompactLeftSvg = () => {
+//   return (
+//     <svg preserveAspectRatio="none" width="24" height="24" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
+//       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+//       <path d="M13 20l-3 -8l3 -8" />
+//     </svg>
+//     )
+//   }
 
-  export const ChevronCompactRightSvg = () => {
-    return (
-      <svg preserveAspectRatio="none" width="24" height="24" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11 4l3 8l-3 8" /></svg>
-    )
-  }
+//   export const ChevronCompactRightSvg = () => {
+//     return (
+//       <svg preserveAspectRatio="none" width="24" height="24" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11 4l3 8l-3 8" /></svg>
+//     )
+//   }
 
-  export const ExpandSvg = () => {
-    return (
-      <svg width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 4l4 0l0 4" /><path d="M14 10l6 -6" /><path d="M8 20l-4 0l0 -4" /><path d="M4 20l6 -6" /><path d="M16 20l4 0l0 -4" /><path d="M14 14l6 6" /><path d="M8 4l-4 0l0 4" /><path d="M4 4l6 6" /></svg>
-    )
-  }
+//   export const ExpandSvg = () => {
+//     return (
+//       <svg width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 4l4 0l0 4" /><path d="M14 10l6 -6" /><path d="M8 20l-4 0l0 -4" /><path d="M4 20l6 -6" /><path d="M16 20l4 0l0 -4" /><path d="M14 14l6 6" /><path d="M8 4l-4 0l0 4" /><path d="M4 4l6 6" /></svg>
+//     )
+//   }

@@ -84,7 +84,7 @@
 .form button {
   padding: 0.5rem 1rem;
   letter-spacing: 2px;
-  font-weight: bold;
+  font-weight: 700;
   background: var(--blue);
   color: var(--light-gold);
   transition: background 0.35s ease, color 0.35s ease;

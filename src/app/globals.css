@@ -24,6 +24,7 @@
 
 html {
   font-size: calc(0.4vw + 1vh + 0.15vmin);
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   scroll-padding-top: calc(var(--navbar-desktop-height) - 1px);
@@ -68,7 +69,7 @@ pre {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 img,
@@ -102,7 +103,7 @@ a {
 button,
 input[type="submit"] {
   cursor: pointer;
-  font-weight: bolder;
+  font-weight: 700;
   letter-spacing: 3px;
   font-family: "Poppins", sans-serif;
   border: 1px solid gray;
