@@ -131,6 +131,9 @@
   padding: 0.25rem 0;
 }
 
+.data_item .mailto_movil {
+  display: none;
+}
 
 .data_item svg {
   color: var(--gold);
@@ -247,6 +250,14 @@
 
   .data_item p {
     font-size: 1.25rem;
+  }
+
+  .data_item .mailto_desktop {
+    display: none;
+  }
+
+  .data_item .mailto_movil {
+    display: block;
   }
 
 }

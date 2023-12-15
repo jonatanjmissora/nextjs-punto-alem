@@ -14,11 +14,20 @@ export const _09Contacto = () => {
     const [name, email, telephone, event_type, event_date, event_guests, message] = formData.values();
     const body = `Nombre:   ${name}%0AMail:   ${email}%0ATeléfono:   ${telephone}%0ATipo de evento:   ${event_type}%0AFecha del evento:   ${event_date}%0ACant invitados:   ${event_guests}%0AMensaje:   ${message}`
     
-    window.open(
-      `https://mail.google.com/mail/u/0/?fs=1&to=info@puntoalemeventos.com&su=${event_type}&body=${body}&bcc=&tf=cm`,
-      "_blank"
-    );
+    if (window.screen.width >= 800) {
+      window.open(
+        `https://mail.google.com/mail/u/0/?fs=1&to=info@puntoalemeventos.com&su=${event_type}&body=${body}&bcc=&tf=cm`,
+        "_blank"
+      );
+    } else {
+      window.open(
+        `mailto:info@puntoalemeventos.com?subject=${event_type}&body=${body}`,
+        "_blank"
+      );
+    }
+
     event.target.reset()
+
   }
 
   return (
@@ -97,7 +106,7 @@ export const _09Contacto = () => {
           <a 
             className={styles.icon} 
             href="https://wa.me/+5492914054505" 
-            title="maps_location" 
+            title="numero_telefonico" 
             target="_blank"
           >
             <PhoneSvg />
@@ -107,7 +116,7 @@ export const _09Contacto = () => {
             <p>
               <a 
               href="https://wa.me/+5492914054505" 
-              title="maps_location" 
+              title="numero_telefonico" 
               target="_blank"
               >
                 291 - 4054505
@@ -123,7 +132,7 @@ export const _09Contacto = () => {
           <a 
             className={styles.mail_icon} 
             href="https://mail.google.com/mail/u/0/?fs=1&to=info@puntoalemeventos.com&su=&body=&bcc=&tf=cm" 
-            title="maps_location" 
+            title="mail_de_la_empresa" 
             target="_blank"
           >
             <MailSvg />
@@ -132,18 +141,20 @@ export const _09Contacto = () => {
           <div>
             <p>
               <a 
+                className={styles.mailto_desktop}
                 href="https://mail.google.com/mail/u/0/?fs=1&to=info@puntoalemeventos.com&su=&body=&bcc=&tf=cm"
                 target="_blank" 
                 title="mail_de_la_empresa"
               >
                 info@puntoalemeventos.com
               </a>
-              <a 
-                href="mailto:jonatanjmissora1@gmail.com?Subject=Mail%20de%20prueba"
+              <a
+                className={styles.mailto_movil} 
+                href="mailto:info@puntoalemeventos.com"
                 target="_blank" 
-                title="mail_de_la_empresa"
+                title="mail_de_la_empresa_movil"
               >
-                test
+                info@puntoalemeventos.com
               </a>
             </p>
           </div>
@@ -156,7 +167,7 @@ export const _09Contacto = () => {
           <div className={styles.socials}>
             <a 
               className={styles.icon} href="https://www.instagram.com/punto.alem/" 
-              title="maps_location" 
+              title="instagram" 
               target="_blank"
             >
               <InstagramSvg />
@@ -164,7 +175,7 @@ export const _09Contacto = () => {
             <a 
               className={styles.icon} 
               href="https://www.facebook.com/Puntoalemeventos" 
-              title="maps_location" 
+              title="facebook" 
               target="_blank"
             >
               <FacebookSvg 
