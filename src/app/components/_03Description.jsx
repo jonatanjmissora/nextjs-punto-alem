@@ -14,7 +14,7 @@ export const _03Description = () => {
           options={{from: "bottom", amount:"50", margin: "-30", delay: "0"}}
         >
           <h3 className={styles.title}>Salón</h3>
-          <p>Con una capacidad para 200 invitados, contamos con mesas y sillas Tiffany, vajillas completas, ambientes totalmente climatizados, cuatro livings exteriores, dos pantallas para transmisión del evento.</p>
+          <p>Amplio salón. Sillas tifany. Vajilla completa. Ambiente climatizado. Diferentes juegos de livings. Pantallas. Espacio semi decorado</p>
         </FramerReveal>
 
         <FramerReveal 
@@ -22,14 +22,14 @@ export const _03Description = () => {
           options={{from: "bottom", amount:"50", margin: "-30", delay: "0.45"}}
         >
           <h3 className={styles.title}>Logística</h3>
-          <p>Brindamos total asesoramiento integral previo al evento. Servicio de atención en salón y personal de limpieza para salón y toilettes. Contamos con servicio de barra de tragos, bartender, cabina de DJ, fotografía 360, latones para bebida y mucho más.</p>
+          <p>Asesoramiento previo al evento. Servicio integral. Contamos con todo lo necesario para tu evento. Catering de calidad. Cocina en vivo. Servicio de bar y coctelería. Mesa dulce. Dj. Plataforma 360. Y mucho mas</p>
         </FramerReveal>
 
         <FramerReveal 
           className={styles.description}
           options={{from: "bottom", amount:"50", margin: "-30", delay: "1"}}
         >
-          <h3 className={styles.title}>Patio al aire libre</h3>
+          <h3 className={styles.title}>Parque al aire libre</h3>
           <p>Salón único en su clase, jardines con paisajismo en pleno centro de la ciudad, transformaran cada evento en un momento mágico. Ideal para ceremonias y celebraciones al aire libre.</p>
         </FramerReveal>
 

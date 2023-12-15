@@ -13,9 +13,9 @@ export const _08Catering = () => {
           options={{from: "left"}}
           >
             <h3 className={styles.title}>Catering único y especial</h3>
-            <p>Sorprender a tus invitados con un servicio gastronómico de primera clase. Nuestros chefs preparan platos únicos con elaboración propia y excelente calidad. Podrás degustar sabores exquisitos, desde entradas caliente y fría, tapeos, platos principales exclusivos, hasta los más finos y dulces postres y tortas.</p>
-            <p>Elaboramos comida al aire libre, nuestros servicios te brindaran la posibilidad de probar nuestro mejor catering también en exteriores.</p>
-            <p>Además, te ofrecemos un servicio de bartender, que te preparará los mejores y mas ricos tragos. Acompañado siempre por nuestro servicio de mozos, que atenderá de la mejor manera y profesionalismo.</p>
+            <p>Sorprender a tus invitados con un servicio gastronómico de primera clase. Nuestros chefs preparan platos únicos con elaboración propia y excelente calidad. Podrás degustar sabores exquisitos, desde recepciones frías y calientes, platos papales exclusivos hasta los más finos postres.</p>
+            <p>Elaboramos comida al aire libre, nuestros servicios te brindaran la posibilidad de probar nuestro mejor catering también en exteriores y en vivo.</p>
+            <p>Además te ofrecemos, un servicio de bar con bartenders profesionales, que te prepararan los mejores y más ricos cócteles.</p>
           </FramerReveal>
           <FramerReveal
           className={styles.image_container} 

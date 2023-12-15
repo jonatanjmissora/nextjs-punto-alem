@@ -138,6 +138,13 @@ export const _09Contacto = () => {
               >
                 info@puntoalemeventos.com
               </a>
+              <a 
+                href="mailto:jonatanjmissora1@gmail.com?Subject=Mail%20de%20prueba"
+                target="_blank" 
+                title="mail_de_la_empresa"
+              >
+                test
+              </a>
             </p>
           </div>
         </FramerReveal>
