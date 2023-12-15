@@ -54,8 +54,8 @@
 .row {
   display: flex;
   justify-content: flex-end;
-  height: 50vh;
-  height: 50dvh;
+  height: 60vh;
+  height: 60dvh;
   width: 100vw;
   overflow: hidden;
   position: relative;
@@ -67,7 +67,7 @@
 }
 
 .image_row_container {
-  height: 55vh;
+  height: 60vh;
   width: 50vw;
 }
 

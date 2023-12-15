@@ -40,9 +40,9 @@ export const _08Catering = () => {
 
             <Image 
               className={styles.image_row} 
-              src={fotos["09"].src} 
-              alt={fotos["09"].alt}
-              title={fotos["09"].title} 
+              src={fotos["08"].src} 
+              alt={fotos["08"].alt}
+              title={fotos["08"].title} 
               />
               </div>
           </FramerReveal>
@@ -51,6 +51,53 @@ export const _08Catering = () => {
             options={{from: "right"}}
           >
             <h2 className={styles.frase}>DISTINCIÓN</h2>
+          </FramerReveal>  
+        </div>
+
+        <div className={styles.row}>
+          
+          <FramerReveal
+            className={styles.frase_container}
+            options={{from: "left"}}
+          >
+            <h2 className={styles.frase}>PALABRA</h2>
+          </FramerReveal>  
+
+          <FramerReveal
+            options={{from: "right"}}
+          >
+            <div className={styles.image_row_container}>
+
+            <Image 
+              className={styles.image_row} 
+              src={fotos["08_2"].src} 
+              alt={fotos["08_2"].alt}
+              title={fotos["08_2"].title} 
+              />
+              </div>
+          </FramerReveal>
+          
+        </div>
+
+        <div className={styles.row}>
+          <FramerReveal
+            options={{from: "left"}}
+          >
+            <div className={styles.image_row_container}>
+
+            <Image 
+              className={styles.image_row} 
+              src={fotos["08_3"].src} 
+              alt={fotos["08_3"].alt}
+              title={fotos["08_3"].title} 
+              />
+              </div>
+          </FramerReveal>
+          <FramerReveal
+            className={styles.frase_container}
+            options={{from: "right"}}
+          >
+            <h2 className={styles.frase}>PALABRA</h2>
           </FramerReveal>  
         </div>
 
