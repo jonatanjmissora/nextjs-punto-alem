@@ -130,8 +130,16 @@ export const _09Contacto = () => {
           options={{from: "bottom", amount:"60", margin: "-20", delay: "0.5"}}
         >
           <a 
-            className={styles.mail_icon} 
+            className={styles.mailto_icon_desktop} 
             href="https://mail.google.com/mail/u/0/?fs=1&to=info@puntoalemeventos.com&su=&body=&bcc=&tf=cm" 
+            title="mail_de_la_empresa" 
+            target="_blank"
+          >
+            <MailSvg />
+          </a>
+          <a 
+            className={styles.mailto_icon_movil} 
+            href="mailto:info@puntoalemeventos.com" 
             title="mail_de_la_empresa" 
             target="_blank"
           >
