@@ -30,7 +30,7 @@ export const _03Description = () => {
           options={{from: "bottom", amount:"50", margin: "-30", delay: "1"}}
         >
           <h3 className={styles.title}>Parque al aire libre</h3>
-          <p>Salón único en su clase, jardines con paisajismo en pleno centro de la ciudad, transformaran cada evento en un momento mágico. Ideal para ceremonias y celebraciones al aire libre.</p>
+          <p>Salón único en su clase, parque con espacios verdes en pleno centro de la ciudad, transformaran cada evento en un momento mágico. Ideal para ceremonias y celebraciones al aire libre.</p>
         </FramerReveal>
 
       </article>

@@ -43,7 +43,7 @@ export const _02Hero = () => {
           <span>-</span>
           <span>Livings</span>
           <span>-</span>
-          <span>Jardin</span>
+          <span>Parque</span>
           <span>-</span>
           <span>Aire Libre</span>
         </FramerReveal>
