@@ -6,8 +6,6 @@ import foto5 from "./assets/foto5.jpg"
 import foto6 from "./assets/foto6.jpg"
 import foto7 from "./assets/foto7.jpg"
 import foto8 from "./assets/foto8.jpg"
-import foto8_2 from "./assets/foto8_2.jpg"
-import foto8_3 from "./assets/foto8_3.jpg"
 import foto10 from "./assets/foto10.jpg"
 import foto11 from "./assets/foto11.jpg"
 import foto12 from "./assets/foto12.jpg"
@@ -52,16 +50,6 @@ const fotos =
   },
   "08": {
     src: foto8,
-    alt: "coctail",
-    title: "coctail"
-  },
-  "08_2": {
-    src: foto8_2,
-    alt: "coctail",
-    title: "coctail"
-  },
-  "08_3": {
-    src: foto8_3,
     alt: "coctail",
     title: "coctail"
   },
