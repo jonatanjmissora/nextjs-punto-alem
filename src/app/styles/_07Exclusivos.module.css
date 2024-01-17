@@ -1,7 +1,6 @@
 .exclusivos {
   position: relative;
-  height: 100vh;
-  height: 100dvh;
+  height: calc(100vh - var(--navbar-desktop-height));
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -53,7 +52,7 @@
 
 @media (max-width: 760px) {
   .exclusivos {
-    margin-top: 20rem;
+    margin-top: 15rem;
   }
 
   .text_container {

@@ -4,9 +4,10 @@
 }
 
 .nosotros {
-  height: calc(100vh - var(--navbar-desktop-height));
+  /* height: calc(100vh - var(--navbar-desktop-height)); */
   display: grid;
   place-items: center;
+  padding: 10rem 0;
 }
 
 .wrapper {
@@ -46,7 +47,7 @@
 
 @media (max-width: 760px) {
   .nosotros {
-    margin-top: 8rem;
+    padding: 1rem 0;
   }
 
   .wrapper {
