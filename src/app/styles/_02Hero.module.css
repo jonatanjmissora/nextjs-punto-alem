@@ -256,8 +256,7 @@
 }
 
 .logo_container {
-  height: 13vw;
-  width: auto;
+  width: 38vw;
 }
 
 .logo {
@@ -291,9 +290,7 @@
     height: 60svh;
   }
 
-  .logo_container {
-    height: 12vw;
-  }
+  .logo_container {}
 }
 
 @media (max-width: 760px) {
@@ -303,8 +300,7 @@
   }
 
   .logo_container {
-    height: 40vw;
-    height: 40svw;
+    margin: 1rem 0;
     width: 100vw;
   }
 

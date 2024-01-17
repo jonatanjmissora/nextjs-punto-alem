@@ -1,9 +1,8 @@
 import Image from 'next/image'
-import HeroLogo from '../assets/HeroLogo.svg'
 import styles from '../styles/_02Hero.module.css'
 import fotos from "../constant"
 import { FramerReveal } from './FramerReveal'
-// import foto1 from "../assets/foto1.jpg"
+import { HeroLogo } from '../assets/icons/Svg'
 
 
 export const _02Hero = () => {
@@ -24,14 +23,7 @@ export const _02Hero = () => {
           className={styles.logo_container}
           options={{from: "top", duration: "1"}}
         >
-            <Image 
-            className={styles.logo} 
-            src={HeroLogo} 
-            title="hero_logo"
-            alt="hero logo" 
-            width="100"
-            height="40"
-            />
+            <HeroLogo />
         </FramerReveal>
         <h1 className={styles.title}>Punto Alem</h1>
         <h2 className={styles.sub_title}>EVENTOS & CATERING</h2>

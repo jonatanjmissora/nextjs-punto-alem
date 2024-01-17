@@ -1,4 +1,3 @@
-import foto1 from "./assets/foto1.jpg"
 import foto2 from "./assets/foto2.jpg"
 import foto3 from "./assets/foto3.jpg"
 import foto4 from "./assets/foto4.jpg"
@@ -13,11 +12,7 @@ import foto13 from "./assets/foto13.jpg"
 
 const fotos =
 {
-  "01": {
-    src: foto1,
-    alt: "centro de mesa y copas",
-    title: "centro_de_mesa_y_copas"
-  },
+
   "02": {
     src: foto2,
     alt: "anillos de boda",

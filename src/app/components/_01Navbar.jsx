@@ -1,6 +1,6 @@
 import Link from "next/link"
 import styles from "../styles/_01Navbar.module.css"
-import NavLogoA from "../assets/NavLogoA.svg"
+import {NavLogo} from "../assets/icons/Svg"
 import { CloseSvg, FacebookSvg, InstagramSvg, MenuSvg } from '../assets/icons/Svg'
 import Image from "next/image"
 import { FramerReveal } from "./FramerReveal"
@@ -12,12 +12,7 @@ export const _01Navbar = () => {
     options={{from: "top", amount:"20", margin: "0", tag: "header", delay: "0.5"}}    
     >
       <div className={styles.logo_container}>
-        <Image 
-          className={styles.logo} 
-          src={NavLogoA} 
-          title="navbar_logo"
-          alt="menu logo" 
-          />
+        <NavLogo />
       </div>
 
       <input type="checkbox" id="hamb" className={styles.hamb}/>

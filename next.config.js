@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // output: 'export',
-  // images: {
-  //   unoptimized: true
-  // }
+
+  //  Habilitar si quieres hacer un deploy manual que no sea en Vercel
+  output: 'export',
+  images: {
+    unoptimized: true
+  }
 }
 
 module.exports = nextConfig
