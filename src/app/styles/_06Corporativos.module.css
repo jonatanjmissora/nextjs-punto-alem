@@ -1,7 +1,7 @@
 .corporativos {
   display: grid;
   place-items: center;
-  height: calc(100vh - var(--navbar-desktop-height));
+  min-height: calc(100vh - var(--navbar-desktop-height));
 }
 
 .wrapper {
@@ -46,9 +46,6 @@
 }
 
 @media (max-width: 760px) {
-  .corporativos {
-    margin-top: 1rem;
-  }
 
   .wrapper {
     padding-top: 4rem;

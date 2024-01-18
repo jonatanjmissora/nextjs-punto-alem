@@ -4,7 +4,7 @@
 }
 
 .nosotros {
-  /* height: calc(100vh - var(--navbar-desktop-height)); */
+  min-height: calc(100vh - var(--navbar-desktop-height));
   display: grid;
   place-items: center;
   padding: 10rem 0;
@@ -47,7 +47,7 @@
 
 @media (max-width: 760px) {
   .nosotros {
-    padding: 1rem 0;
+    padding: 0;
   }
 
   .wrapper {

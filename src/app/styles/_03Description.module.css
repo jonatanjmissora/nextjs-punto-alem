@@ -47,9 +47,8 @@
 
 
 @media (max-width: 760px) {
-  .description_section {
-    padding-top: 0;
-  }
+
+
   .text_container {
     flex-direction: column;
     align-items: center;

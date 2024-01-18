@@ -7,8 +7,11 @@ import { _04Nosotros } from './components/_04Nosotros'
 import { _05Sociales } from './components/_05Sociales'
 import { _06Corporativos } from './components/_06Corporativos'
 import { _07Exclusivos } from './components/_07Exclusivos'
-import { _08Catering } from './components/_08Catering'
-import { _09Contacto } from './components/_09Contacto'
+import { _08Catering_Part1 } from './components/_08Catering_Part1'
+import { _08Catering_Part2 } from './components/_08Catering_Part2'
+import { _09Contacto_Form } from './components/_09Contacto_Form'
+import { _09Contacto_Data } from './components/_09Contacto_Data'
+import { _09Contacto_Map } from './components/_09Contacto_Map'
 import { useEffect } from 'react'
 
 export default function Home() {
@@ -47,8 +50,11 @@ export default function Home() {
       <_05Sociales />
       <_06Corporativos />
       <_07Exclusivos />
-      <_08Catering />
-      <_09Contacto />
+      <_08Catering_Part1 />
+      <_08Catering_Part2 />
+      <_09Contacto_Form />
+      <_09Contacto_Data />
+      <_09Contacto_Map />
     </main>
   )
 }

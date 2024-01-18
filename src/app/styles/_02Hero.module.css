@@ -2,11 +2,12 @@
   /* height: 100vh;
   height: 100svh; */
   /* background: linear-gradient(to bottom, rgb(240, 240, 255), rgb(253, 253, 255)); */
+  height: 100vh;
 }
 
 .image_container_bg {
   background: var(--blue);
-  margin-top: var(--navbar-desktop-height);
+  margin-top: calc(var(--navbar-desktop-height) - 2px);
   height: 65vh;
   height: 65svh;
   width: 100vw;
@@ -294,6 +295,10 @@
 }
 
 @media (max-width: 760px) {
+  .hero {
+    height: max-content;
+  }
+
   .image_container_bg {
     height: 50vh;
     height: 50svh;
