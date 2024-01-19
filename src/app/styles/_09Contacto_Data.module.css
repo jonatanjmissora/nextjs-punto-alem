@@ -36,7 +36,7 @@
 
 .data_item i,
 .data_item .icon {
-  /* width: 3.75rem; */
+  width: 3.75rem;
   height: 3.5rem;
   display: grid;
   place-items: center;
@@ -46,10 +46,11 @@
 
 .data_item .mailto_icon_desktop,
 .data_item .mailto_icon_movil {
-  width: 4.25rem;
+  width: 4rem;
   height: 3.5rem;
-  padding: 0.25rem 0;
+  padding: 0.35rem 0;
   margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
 }
 
 .data_item .mailto_movil,
